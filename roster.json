@@ -1,0 +1,17 @@
+{
+  "comment": "Add/remove players here. 'id' is the MLB.com person ID (find it in a player's mlb.com URL, e.g. mlb.com/player/aaron-judge-592450 -> 592450). 'team' is optional/cosmetic.",
+  "startDate": "2026-08-09",
+  "endDate": "2026-08-16",
+  "players": [
+    {"id": 592450, "name": "Aaron Judge", "team": "NYY"},
+    {"id": 660271, "name": "Shohei Ohtani", "team": "LAD"},
+    {"id": 665742, "name": "Juan Soto", "team": "NYM"},
+    {"id": 605141, "name": "Mookie Betts", "team": "LAD"},
+    {"id": 660670, "name": "Ronald Acuna Jr.", "team": "ATL"},
+    {"id": 677951, "name": "Bobby Witt Jr.", "team": "KC"},
+    {"id": 682829, "name": "Elly De La Cruz", "team": "CIN"},
+    {"id": 682998, "name": "Corbin Carroll", "team": "ARI"},
+    {"id": 677594, "name": "Julio Rodriguez", "team": "SEA"},
+    {"id": 683002, "name": "Gunnar Henderson", "team": "BAL"}
+  ]
+}

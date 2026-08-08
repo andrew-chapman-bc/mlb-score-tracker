@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Small Ball Leaderboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --field: #0b3d2e;
+    --field-dark: #072b20;
+    --dirt: #a9713f;
+    --chalk: #f5f3ec;
+    --bulb: #f2c14e;
+    --bulb-dim: #7a6222;
+    --neg: #d9603a;
+    --line: rgba(245, 243, 236, 0.14);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    background:
+      radial-gradient(ellipse at 50% -10%, rgba(255,255,255,0.06), transparent 60%),
+      repeating-linear-gradient(
+        90deg,
+        var(--field) 0px, var(--field) 44px,
+        var(--field-dark) 44px, var(--field-dark) 88px
+      );
+    color: var(--chalk);
+    min-height: 100vh;
+    padding: 32px 16px 64px;
+  }
+
+  header {
+    max-width: 900px;
+    margin: 0 auto 28px;
+    text-align: center;
+  }
+
+  .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    letter-spacing: 0.3em;
+    font-size: 11px;
+    color: var(--bulb);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: clamp(28px, 5vw, 44px);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0 0 8px;
+    color: var(--chalk);
+    text-shadow: 0 0 18px rgba(242,193,78,0.15);
+  }
+
+  .subtitle {
+    font-size: 13px;
+    color: rgba(245,243,236,0.65);
+  }
+
+  .range {
+    color: var(--bulb);
+  }
+
+  .board {
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #0d2b20, #081f17);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    box-shadow: 0 30px 60px -20px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.04);
+    overflow: hidden;
+  }
+
+  .controls {
+    display: flex;
+    gap: 10px;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--line);
+    background: rgba(0,0,0,0.15);
+  }
+
+  #search {
+    flex: 1;
+    background: rgba(0,0,0,0.35);
+    border: 1px solid var(--line);
+    color: var(--chalk);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    padding: 9px 12px;
+    border-radius: 3px;
+    outline: none;
+  }
+  #search::placeholder { color: rgba(245,243,236,0.4); }
+  #search:focus { border-color: var(--bulb-dim); }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead th {
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(245,243,236,0.55);
+    font-weight: 500;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--line);
+  }
+  thead th.num, tbody td.num { text-align: right; }
+
+  tbody tr {
+    border-bottom: 1px solid var(--line);
+    transition: background 0.15s ease;
+  }
+  tbody tr:hover { background: rgba(242,193,78,0.05); }
+  tbody tr:last-child { border-bottom: none; }
+
+  td {
+    padding: 12px 20px;
+    font-size: 14px;
+    vertical-align: middle;
+  }
+
+  .rank {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.35);
+    border: 1px solid var(--bulb-dim);
+    color: var(--bulb);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  tr:nth-child(1) .rank { background: var(--bulb); color: #1a1200; border-color: var(--bulb); }
+
+  .name {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+  }
+  .team {
+    display: inline-block;
+    margin-left: 8px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: rgba(245,243,236,0.5);
+    border: 1px solid var(--line);
+    padding: 1px 5px;
+    border-radius: 3px;
+    vertical-align: middle;
+  }
+
+  .score {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    min-width: 34px;
+    display: inline-block;
+    text-align: right;
+  }
+  .score.pos { color: var(--bulb); }
+  .score.neg { color: var(--neg); }
+  .score.zero { color: rgba(245,243,236,0.6); }
+
+  .avg { color: rgba(245,243,236,0.55); font-size: 13px; }
+
+  footer {
+    max-width: 900px;
+    margin: 18px auto 0;
+    font-size: 11px;
+    color: rgba(245,243,236,0.4);
+    text-align: center;
+  }
+
+  .empty {
+    padding: 40px 20px;
+    text-align: center;
+    color: rgba(245,243,236,0.5);
+    font-size: 13px;
+  }
+
+  @media (max-width: 560px) {
+    td, thead th { padding: 10px 12px; }
+    .team { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Small Ball Score</div>
+  <h1>Leaderboard</h1>
+  <div class="subtitle">Games <span class="range" id="date-range">—</span></div>
+</header>
+
+<div class="board">
+  <div class="controls">
+    <input id="search" type="text" placeholder="Filter by player or team..." autocomplete="off">
+  </div>
+  <table id="table">
+    <thead>
+      <tr>
+        <th style="width:40px">#</th>
+        <th>Player</th>
+        <th class="num">AVG</th>
+        <th class="num">Score</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <div class="empty" id="empty" style="display:none;">No players match "<span id="empty-query"></span>".</div>
+</div>
+
+<footer id="generated">Loading...</footer>
+
+<script>
+  let leaderboard = [];
+
+  function fmtAvg(avg) {
+    if (avg === null || avg === undefined) return "—";
+    return avg.toFixed(3).replace(/^0/, "");
+  }
+
+  function scoreClass(score) {
+    if (score > 0) return "pos";
+    if (score < 0) return "neg";
+    return "zero";
+  }
+
+  function render(filter) {
+    const rowsEl = document.getElementById("rows");
+    const emptyEl = document.getElementById("empty");
+    const q = (filter || "").trim().toLowerCase();
+
+    const filtered = leaderboard.filter(p =>
+      p.name.toLowerCase().includes(q) || (p.team || "").toLowerCase().includes(q)
+    );
+
+    if (filtered.length === 0) {
+      rowsEl.innerHTML = "";
+      document.getElementById("empty-query").textContent = filter;
+      emptyEl.style.display = "block";
+      return;
+    }
+    emptyEl.style.display = "none";
+
+    rowsEl.innerHTML = filtered.map((p, i) => `
+      <tr>
+        <td><span class="rank">${i + 1}</span></td>
+        <td>
+          <span class="name">${p.name}</span>
+          ${p.team ? `<span class="team">${p.team}</span>` : ""}
+        </td>
+        <td class="num avg">${fmtAvg(p.avg)}</td>
+        <td class="num"><span class="score ${scoreClass(p.score)}">${p.score > 0 ? "+" : ""}${p.score}</span></td>
+      </tr>
+    `).join("");
+  }
+
+  document.getElementById("search").addEventListener("input", (e) => render(e.target.value));
+
+  fetch("data/scores.json?_=" + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      leaderboard = data.leaderboard || [];
+      document.getElementById("date-range").textContent = `${data.startDate} → ${data.endDate}`;
+      const gen = new Date(data.generatedAt);
+      document.getElementById("generated").textContent =
+        "Last updated " + gen.toLocaleString();
+      render("");
+    })
+    .catch(err => {
+      document.getElementById("generated").textContent = "Could not load data/scores.json";
+      console.error(err);
+    });
+</script>
+
+</body>
+</html>

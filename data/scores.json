@@ -1,0 +1,191 @@
+{
+  "generatedAt": "2026-08-08T01:11:13Z",
+  "startDate": "2026-08-01",
+  "endDate": "2026-08-10",
+  "leaderboard": [
+    {
+      "id": 677951,
+      "name": "Bobby Witt Jr.",
+      "team": "KC",
+      "score": 5,
+      "avg": 0.285,
+      "breakdown": {
+        "singles": 4,
+        "doubles": 2,
+        "triples": 0,
+        "home_runs": 0,
+        "walks": 1,
+        "hbp": 0,
+        "sac_bunts": 0,
+        "sac_flies": 0,
+        "strikeouts": 1,
+        "stolen_bases": 1,
+        "caught_stealing": 0,
+        "gidp": 0
+      }
+    },
+    {
+      "id": 605141,
+      "name": "Mookie Betts",
+      "team": "LAD",
+      "score": 2,
+      "avg": 0.233,
+      "breakdown": {
+        "singles": 4,
+        "doubles": 0,
+        "triples": 0,
+        "home_runs": 0,
+        "walks": 0,
+        "hbp": 0,
+        "sac_bunts": 0,
+        "sac_flies": 0,
+        "strikeouts": 0,
+        "stolen_bases": 0,
+        "caught_stealing": 0,
+        "gidp": 2
+      }
+    },
+    {
+      "id": 665742,
+      "name": "Juan Soto",
+      "team": "NYM",
+      "score": 0,
+      "avg": 0.283,
+      "breakdown": {}
+    },
+    {
+      "id": 592450,
+      "name": "Aaron Judge",
+      "team": "NYY",
+      "score": 0,
+      "avg": 0.248,
+      "breakdown": {}
+    },
+    {
+      "id": 677594,
+      "name": "Julio Rodriguez",
+      "team": "SEA",
+      "score": -3,
+      "avg": 0.258,
+      "breakdown": {
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "home_runs": 1,
+        "walks": 5,
+        "hbp": 0,
+        "sac_bunts": 0,
+        "sac_flies": 0,
+        "strikeouts": 3,
+        "stolen_bases": 0,
+        "caught_stealing": 0,
+        "gidp": 0
+      }
+    },
+    {
+      "id": 660271,
+      "name": "Shohei Ohtani",
+      "team": "LAD",
+      "score": -4,
+      "avg": 0.297,
+      "breakdown": {
+        "singles": 6,
+        "doubles": 0,
+        "triples": 0,
+        "home_runs": 2,
+        "walks": 3,
+        "hbp": 0,
+        "sac_bunts": 0,
+        "sac_flies": 0,
+        "strikeouts": 5,
+        "stolen_bases": 0,
+        "caught_stealing": 0,
+        "gidp": 0
+      }
+    },
+    {
+      "id": 682829,
+      "name": "Elly De La Cruz",
+      "team": "CIN",
+      "score": -5,
+      "avg": 0.277,
+      "breakdown": {
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "home_runs": 1,
+        "walks": 3,
+        "hbp": 0,
+        "sac_bunts": 0,
+        "sac_flies": 0,
+        "strikeouts": 5,
+        "stolen_bases": 1,
+        "caught_stealing": 0,
+        "gidp": 0
+      }
+    },
+    {
+      "id": 683002,
+      "name": "Gunnar Henderson",
+      "team": "BAL",
+      "score": -5,
+      "avg": 0.217,
+      "breakdown": {
+        "singles": 2,
+        "doubles": 0,
+        "triples": 0,
+        "home_runs": 0,
+        "walks": 6,
+        "hbp": 1,
+        "sac_bunts": 0,
+        "sac_flies": 0,
+        "strikeouts": 2,
+        "stolen_bases": 0,
+        "caught_stealing": 0,
+        "gidp": 0
+      }
+    },
+    {
+      "id": 682998,
+      "name": "Corbin Carroll",
+      "team": "ARI",
+      "score": -6,
+      "avg": 0.245,
+      "breakdown": {
+        "singles": 3,
+        "doubles": 1,
+        "triples": 0,
+        "home_runs": 1,
+        "walks": 3,
+        "hbp": 0,
+        "sac_bunts": 0,
+        "sac_flies": 0,
+        "strikeouts": 7,
+        "stolen_bases": 1,
+        "caught_stealing": 0,
+        "gidp": 0
+      }
+    },
+    {
+      "id": 660670,
+      "name": "Ronald Acuna Jr.",
+      "team": "ATL",
+      "score": -7,
+      "avg": 0.243,
+      "breakdown": {
+        "singles": 3,
+        "doubles": 0,
+        "triples": 0,
+        "home_runs": 3,
+        "walks": 1,
+        "hbp": 0,
+        "sac_bunts": 0,
+        "sac_flies": 0,
+        "strikeouts": 6,
+        "stolen_bases": 0,
+        "caught_stealing": 0,
+        "gidp": 0
+      }
+    }
+  ]
+}
