@@ -22,15 +22,16 @@ Triples, runs, and RBI are not scored. Ties break on season batting average
 
 ## How it works
 
-- `roster.json` — the players you're tracking, plus the date range. Edit
-  this file to add/remove players or change dates; no code changes needed.
-- `fetch_scores.py` — pulls completed games in the date range from the
+- `fetch_scores.py` — pulls every active player in the league (excluding
+  pitchers by default), pulls completed games in the date range from the
   [MLB Stats API](https://statsapi.mlb.com) (free, no key needed), computes
-  each roster player's score, and writes `data/scores.json`.
+  each player's score, and writes `data/scores.json`. The date range and
+  the `EXCLUDE_PITCHERS` flag are set as constants near the top of the file.
 - `.github/workflows/update-scores.yml` — runs the script once a day and
   commits the updated `data/scores.json` automatically.
 - `index.html` — static leaderboard page that reads `data/scores.json`.
-  Includes a search box to filter by player/team.
+  Includes a search box (filters by player/team) and pagination at 25
+  players per page.
 
 ## Setup
 
@@ -40,8 +41,8 @@ Triples, runs, and RBI are not scored. Ties break on season batting average
 3. In the repo's **Actions** tab, confirm workflows are enabled. The
    `Update Scores` workflow runs daily at 09:00 UTC, or trigger it manually
    from the Actions tab (**Run workflow**) any time.
-4. Edit `roster.json` with your friends' actual player picks (find a
-   player's MLB ID from their `mlb.com/player/...` URL).
+4. Edit the `START_DATE` / `END_DATE` constants at the top of
+   `fetch_scores.py` if you want a different window.
 5. Visit `https://<your-username>.github.io/<repo-name>/`.
 
 ## Running locally
@@ -58,6 +59,18 @@ No dependencies beyond Python 3's standard library.
 - Only fully completed games (`codedGameState == "F"`) are counted, so
   in-progress games aren't double-counted across daily runs.
 - Season AVG (used only as a tiebreaker) is pulled live at fetch time from
-  the player's current season stats, not restricted to the date range.
+  the player's current season stats, not restricted to the date range, and
+  fetched in bulk (a couple of API calls) rather than per-player.
+- Every active player in the league is included, even those who didn't
+  play in the date range (they show up with a score of 0). Pitchers are
+  excluded by default (`EXCLUDE_PITCHERS = True` in `fetch_scores.py`) —
+  set it to `False` to include them.
+- With ~750-800 players in the file, `data/scores.json` stays well under
+  a size that's a problem for a static fetch; pagination happens entirely
+  client-side in the browser, so there's no backend to scale.
 - If MLB Stats API is briefly unavailable, the script retries a few times
   before failing; a failed Action run just leaves yesterday's data in place.
+- The exact query parameters for the bulk stats endpoint
+  (`/api/v1/stats?stats=season&group=hitting...`) haven't been verified
+  against a live call in this environment (no network access here) — worth
+  a manual test run before relying on the daily cron.

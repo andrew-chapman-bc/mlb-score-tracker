@@ -196,6 +196,38 @@
     font-size: 13px;
   }
 
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 16px 20px;
+    border-top: 1px solid var(--line);
+    background: rgba(0,0,0,0.15);
+  }
+
+  .page-btn {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: var(--chalk);
+    background: rgba(0,0,0,0.35);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 7px 14px;
+    cursor: pointer;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .page-btn:hover:not(:disabled) { border-color: var(--bulb-dim); color: var(--bulb); }
+  .page-btn:disabled { opacity: 0.35; cursor: default; }
+
+  .page-indicator {
+    font-size: 12px;
+    color: rgba(245,243,236,0.6);
+    min-width: 90px;
+    text-align: center;
+  }
+
   @media (max-width: 560px) {
     td, thead th { padding: 10px 12px; }
     .team { display: none; }
@@ -226,12 +258,19 @@
     <tbody id="rows"></tbody>
   </table>
   <div class="empty" id="empty" style="display:none;">No players match "<span id="empty-query"></span>".</div>
+  <div class="pagination" id="pagination">
+    <button id="prev-btn" class="page-btn">&larr; Prev</button>
+    <span id="page-indicator" class="page-indicator"></span>
+    <button id="next-btn" class="page-btn">Next &rarr;</button>
+  </div>
 </div>
 
 <footer id="generated">Loading...</footer>
 
 <script>
   let leaderboard = [];
+  const PAGE_SIZE = 25;
+  let currentPage = 1;
 
   function fmtAvg(avg) {
     if (avg === null || avg === undefined) return "—";
@@ -244,26 +283,37 @@
     return "zero";
   }
 
+  function getFiltered(filter) {
+    const q = (filter || "").trim().toLowerCase();
+    return leaderboard.filter(p =>
+      p.name.toLowerCase().includes(q) || (p.team || "").toLowerCase().includes(q)
+    );
+  }
+
   function render(filter) {
     const rowsEl = document.getElementById("rows");
     const emptyEl = document.getElementById("empty");
-    const q = (filter || "").trim().toLowerCase();
-
-    const filtered = leaderboard.filter(p =>
-      p.name.toLowerCase().includes(q) || (p.team || "").toLowerCase().includes(q)
-    );
+    const paginationEl = document.getElementById("pagination");
+    const filtered = getFiltered(filter);
 
     if (filtered.length === 0) {
       rowsEl.innerHTML = "";
       document.getElementById("empty-query").textContent = filter;
       emptyEl.style.display = "block";
+      paginationEl.style.display = "none";
       return;
     }
     emptyEl.style.display = "none";
+    paginationEl.style.display = "flex";
 
-    rowsEl.innerHTML = filtered.map((p, i) => `
+    const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+    currentPage = Math.min(currentPage, totalPages);
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const pageItems = filtered.slice(start, start + PAGE_SIZE);
+
+    rowsEl.innerHTML = pageItems.map((p, i) => `
       <tr>
-        <td><span class="rank">${i + 1}</span></td>
+        <td><span class="rank">${start + i + 1}</span></td>
         <td>
           <span class="name">${p.name}</span>
           ${p.team ? `<span class="team">${p.team}</span>` : ""}
@@ -272,9 +322,26 @@
         <td class="num"><span class="score ${scoreClass(p.score)}">${p.score > 0 ? "+" : ""}${p.score}</span></td>
       </tr>
     `).join("");
+
+    document.getElementById("page-indicator").textContent = `Page ${currentPage} of ${totalPages}`;
+    document.getElementById("prev-btn").disabled = currentPage <= 1;
+    document.getElementById("next-btn").disabled = currentPage >= totalPages;
   }
 
-  document.getElementById("search").addEventListener("input", (e) => render(e.target.value));
+  document.getElementById("search").addEventListener("input", (e) => {
+    currentPage = 1;
+    render(e.target.value);
+  });
+
+  document.getElementById("prev-btn").addEventListener("click", () => {
+    currentPage -= 1;
+    render(document.getElementById("search").value);
+  });
+
+  document.getElementById("next-btn").addEventListener("click", () => {
+    currentPage += 1;
+    render(document.getElementById("search").value);
+  });
 
   fetch("data/scores.json?_=" + Date.now())
     .then(r => r.json())
