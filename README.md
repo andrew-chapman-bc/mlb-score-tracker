@@ -3,7 +3,7 @@
 A leaderboard that scores MLB players on contact/speed events instead of
 power. This was a fun game some friends of mine came up with for a
 way to determine our fantasy football draft order. I wanted to create
-a website people could use to live track eaech day how their players 
+a website people could use to live track each day how their players 
 were doing. Code created with the assistance of Claude Sonnet:
 
 | Event | Points |
