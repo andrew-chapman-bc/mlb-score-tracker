@@ -102,6 +102,13 @@
   #search::placeholder { color: rgba(245,243,236,0.4); }
   #search:focus { border-color: var(--bulb-dim); }
 
+  #roster-toggle.active {
+    background: var(--bulb);
+    color: #1a1200;
+    border-color: var(--bulb);
+    font-weight: 600;
+  }
+
   table {
     width: 100%;
     border-collapse: collapse;
@@ -245,6 +252,7 @@
 <div class="board">
   <div class="controls">
     <input id="search" type="text" placeholder="Filter by player or team..." autocomplete="off">
+    <button id="roster-toggle" class="page-btn">League Roster</button>
   </div>
   <table id="table">
     <thead>
@@ -271,6 +279,23 @@
   let leaderboard = [];
   const PAGE_SIZE = 25;
   let currentPage = 1;
+  let showRosterOnly = false;
+
+  // Our tracked league/draft roster (from roster.json). Extend this list any
+  // time by adding more MLB person IDs.
+  const TRACKED_PLAYER_IDS = new Set([
+    650333, // Luis Arraez - PHI
+    680757, // Steven Kwan - CLE
+    656941, // Kyle Schwarber - PHI
+    676609, // Jose Caballero - NYY
+    665487, // Fernando Tatis Jr. - SD
+    663538, // Nico Hoerner - CHC
+    802415, // Chandler Simpson - TB
+    668930, // Brice Turang - MIL
+    672640, // Otto Lopez - MIA
+    693304, // Nick Gonzalez - PIT
+    691718, // Pete Crow-Armstrong - CHC
+  ]);
 
   function fmtAvg(avg) {
     if (avg === null || avg === undefined) return "—";
@@ -285,9 +310,10 @@
 
   function getFiltered(filter) {
     const q = (filter || "").trim().toLowerCase();
-    return leaderboard.filter(p =>
-      p.name.toLowerCase().includes(q) || (p.team || "").toLowerCase().includes(q)
-    );
+    return leaderboard.filter(p => {
+      if (showRosterOnly && !TRACKED_PLAYER_IDS.has(p.id)) return false;
+      return p.name.toLowerCase().includes(q) || (p.team || "").toLowerCase().includes(q);
+    });
   }
 
   function render(filter) {
@@ -331,6 +357,13 @@
   document.getElementById("search").addEventListener("input", (e) => {
     currentPage = 1;
     render(e.target.value);
+  });
+
+  document.getElementById("roster-toggle").addEventListener("click", (e) => {
+    showRosterOnly = !showRosterOnly;
+    e.target.classList.toggle("active", showRosterOnly);
+    currentPage = 1;
+    render(document.getElementById("search").value);
   });
 
   document.getElementById("prev-btn").addEventListener("click", () => {
