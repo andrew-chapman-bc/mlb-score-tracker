@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T09:52:50Z",
+  "generatedAt": "2026-08-15T09:18:12Z",
   "startDate": "2026-08-09",
   "endDate": "2026-08-16",
   "leaderboard": [
@@ -7,8 +7,15 @@
       "id": 802415,
       "name": "Chandler Simpson",
       "team": "TB",
-      "score": 11,
-      "avg": 0.307
+      "score": 12,
+      "avg": 0.306
+    },
+    {
+      "id": 663538,
+      "name": "Nico Hoerner",
+      "team": "CHC",
+      "score": 8,
+      "avg": 0.262
     },
     {
       "id": 676356,
@@ -22,14 +29,21 @@
       "name": "Yandy D\u00edaz",
       "team": "TB",
       "score": 7,
-      "avg": 0.302
+      "avg": 0.301
     },
     {
-      "id": 663538,
-      "name": "Nico Hoerner",
-      "team": "CHC",
+      "id": 643446,
+      "name": "Jeff McNeil",
+      "team": "ATH",
       "score": 7,
-      "avg": 0.262
+      "avg": 0.0
+    },
+    {
+      "id": 695734,
+      "name": "Daylen Lile",
+      "team": "WSH",
+      "score": 6,
+      "avg": 0.249
     },
     {
       "id": 678882,
@@ -39,25 +53,25 @@
       "avg": 0.288
     },
     {
-      "id": 695734,
-      "name": "Daylen Lile",
-      "team": "WSH",
+      "id": 672695,
+      "name": "Geraldo Perdomo",
+      "team": "AZ",
       "score": 5,
-      "avg": 0.249
+      "avg": 0.252
     },
     {
-      "id": 643446,
-      "name": "Jeff McNeil",
-      "team": "ATH",
-      "score": 5,
-      "avg": 0.0
+      "id": 670623,
+      "name": "Isaac Paredes",
+      "team": "HOU",
+      "score": 4,
+      "avg": 0.255
     },
     {
-      "id": 676724,
-      "name": "Jared Young",
-      "team": "NYM",
-      "score": 5,
-      "avg": 0.0
+      "id": 514888,
+      "name": "Jose Altuve",
+      "team": "HOU",
+      "score": 4,
+      "avg": 0.242
     },
     {
       "id": 701675,
@@ -74,11 +88,60 @@
       "avg": 0.0
     },
     {
+      "id": 694203,
+      "name": "Denzer Guzman",
+      "team": "LAA",
+      "score": 4,
+      "avg": 0.0
+    },
+    {
+      "id": 623168,
+      "name": "Tyler Heineman",
+      "team": "LAA",
+      "score": 4,
+      "avg": 0.0
+    },
+    {
+      "id": 647304,
+      "name": "Josh Naylor",
+      "team": "SEA",
+      "score": 3,
+      "avg": 0.266
+    },
+    {
+      "id": 671056,
+      "name": "Iv\u00e1n Herrera",
+      "team": "STL",
+      "score": 3,
+      "avg": 0.249
+    },
+    {
       "id": 521692,
       "name": "Salvador Perez",
       "team": "KC",
       "score": 3,
       "avg": 0.216
+    },
+    {
+      "id": 656775,
+      "name": "Cedric Mullins",
+      "team": "TB",
+      "score": 3,
+      "avg": 0.209
+    },
+    {
+      "id": 678225,
+      "name": "Jihwan Bae",
+      "team": "MIL",
+      "score": 3,
+      "avg": 0.0
+    },
+    {
+      "id": 703520,
+      "name": "Brett Bateman",
+      "team": "TOR",
+      "score": 3,
+      "avg": 0.0
     },
     {
       "id": 624428,
@@ -88,9 +151,9 @@
       "avg": 0.0
     },
     {
-      "id": 694203,
-      "name": "Denzer Guzman",
-      "team": "LAA",
+      "id": 691781,
+      "name": "Brady House",
+      "team": "WSH",
       "score": 3,
       "avg": 0.0
     },
@@ -102,23 +165,9 @@
       "avg": 0.0
     },
     {
-      "id": 664770,
-      "name": "Nathan Lukes",
-      "team": "TOR",
-      "score": 3,
-      "avg": 0.0
-    },
-    {
-      "id": 682657,
-      "name": "Angel Mart\u00ednez",
-      "team": "CLE",
-      "score": 3,
-      "avg": 0.0
-    },
-    {
-      "id": 642201,
-      "name": "Eli White",
-      "team": "BOS",
+      "id": 682927,
+      "name": "Ronny Simon",
+      "team": "PIT",
       "score": 3,
       "avg": 0.0
     },
@@ -130,16 +179,16 @@
       "avg": 0.0
     },
     {
+      "id": 676724,
+      "name": "Jared Young",
+      "team": "NYM",
+      "score": 3,
+      "avg": 0.0
+    },
+    {
       "id": 800050,
       "name": "Chase DeLauter",
       "team": "CLE",
-      "score": 2,
-      "avg": 0.285
-    },
-    {
-      "id": 689414,
-      "name": "Liam Hicks",
-      "team": "TB",
       "score": 2,
       "avg": 0.284
     },
@@ -151,6 +200,13 @@
       "avg": 0.274
     },
     {
+      "id": 695506,
+      "name": "Jac Caglianone",
+      "team": "KC",
+      "score": 2,
+      "avg": 0.273
+    },
+    {
       "id": 681082,
       "name": "Bryson Stott",
       "team": "PHI",
@@ -158,39 +214,18 @@
       "avg": 0.265
     },
     {
+      "id": 643289,
+      "name": "Mauricio Dub\u00f3n",
+      "team": "ATL",
+      "score": 2,
+      "avg": 0.264
+    },
+    {
       "id": 665489,
       "name": "Vladimir Guerrero Jr.",
       "team": "TOR",
       "score": 2,
-      "avg": 0.262
-    },
-    {
-      "id": 702284,
-      "name": "Cole Young",
-      "team": "SEA",
-      "score": 2,
-      "avg": 0.262
-    },
-    {
-      "id": 670623,
-      "name": "Isaac Paredes",
-      "team": "HOU",
-      "score": 2,
-      "avg": 0.254
-    },
-    {
-      "id": 671056,
-      "name": "Iv\u00e1n Herrera",
-      "team": "STL",
-      "score": 2,
-      "avg": 0.249
-    },
-    {
-      "id": 683737,
-      "name": "Michael Busch",
-      "team": "CHC",
-      "score": 2,
-      "avg": 0.245
+      "avg": 0.263
     },
     {
       "id": 686797,
@@ -200,23 +235,9 @@
       "avg": 0.245
     },
     {
-      "id": 656775,
-      "name": "Cedric Mullins",
-      "team": "TB",
-      "score": 2,
-      "avg": 0.207
-    },
-    {
       "id": 669397,
       "name": "Nick Allen",
       "team": "HOU",
-      "score": 2,
-      "avg": 0.0
-    },
-    {
-      "id": 678225,
-      "name": "Jihwan Bae",
-      "team": "MIL",
       "score": 2,
       "avg": 0.0
     },
@@ -228,36 +249,22 @@
       "avg": 0.0
     },
     {
-      "id": 703520,
-      "name": "Brett Bateman",
-      "team": "TOR",
+      "id": 669134,
+      "name": "Luis Campusano",
+      "team": "SD",
       "score": 2,
       "avg": 0.0
     },
     {
-      "id": 686668,
-      "name": "Brenton Doyle",
-      "team": "CWS",
+      "id": 663647,
+      "name": "Ke'Bryan Hayes",
+      "team": "CIN",
       "score": 2,
       "avg": 0.0
     },
     {
-      "id": 665877,
-      "name": "Jos\u00e9 Ferm\u00edn",
-      "team": "STL",
-      "score": 2,
-      "avg": 0.0
-    },
-    {
-      "id": 687859,
-      "name": "Troy Johnston",
-      "team": "COL",
-      "score": 2,
-      "avg": 0.0
-    },
-    {
-      "id": 672386,
-      "name": "Alejandro Kirk",
+      "id": 664770,
+      "name": "Nathan Lukes",
       "team": "TOR",
       "score": 2,
       "avg": 0.0
@@ -273,13 +280,6 @@
       "id": 678011,
       "name": "Anthony Seigler",
       "team": "BOS",
-      "score": 2,
-      "avg": 0.0
-    },
-    {
-      "id": 682927,
-      "name": "Ronny Simon",
-      "team": "PIT",
       "score": 2,
       "avg": 0.0
     },
@@ -305,60 +305,39 @@
       "avg": 0.0
     },
     {
-      "id": 622268,
-      "name": "Donovan Walton",
+      "id": 642201,
+      "name": "Eli White",
+      "team": "BOS",
+      "score": 2,
+      "avg": 0.0
+    },
+    {
+      "id": 805779,
+      "name": "Jacob Wilson",
       "team": "ATH",
       "score": 2,
       "avg": 0.0
     },
     {
-      "id": 669224,
-      "name": "Austin Wells",
-      "team": "NYY",
-      "score": 2,
-      "avg": 0.0
-    },
-    {
-      "id": 675961,
-      "name": "Alika Williams",
-      "team": "ATH",
-      "score": 2,
-      "avg": 0.0
-    },
-    {
-      "id": 670541,
-      "name": "Yordan Alvarez",
-      "team": "HOU",
+      "id": 672640,
+      "name": "Otto Lopez",
+      "team": "MIA",
       "score": 1,
-      "avg": 0.322
+      "avg": 0.312
     },
     {
-      "id": 672515,
-      "name": "Gabriel Moreno",
-      "team": "AZ",
+      "id": 693304,
+      "name": "Nick Gonzales",
+      "team": "PIT",
       "score": 1,
-      "avg": 0.305
-    },
-    {
-      "id": 691023,
-      "name": "Jordan Walker",
-      "team": "STL",
-      "score": 1,
-      "avg": 0.284
-    },
-    {
-      "id": 671277,
-      "name": "Luis Garc\u00eda Jr.",
-      "team": "NYY",
-      "score": 1,
-      "avg": 0.281
+      "avg": 0.307
     },
     {
       "id": 803011,
       "name": "Sam Antonacci",
       "team": "CWS",
       "score": 1,
-      "avg": 0.28
+      "avg": 0.278
     },
     {
       "id": 686948,
@@ -368,46 +347,18 @@
       "avg": 0.274
     },
     {
-      "id": 695506,
-      "name": "Jac Caglianone",
-      "team": "KC",
-      "score": 1,
-      "avg": 0.268
-    },
-    {
-      "id": 643289,
-      "name": "Mauricio Dub\u00f3n",
-      "team": "ATL",
-      "score": 1,
-      "avg": 0.264
-    },
-    {
       "id": 606466,
       "name": "Ketel Marte",
       "team": "AZ",
       "score": 1,
-      "avg": 0.252
+      "avg": 0.251
     },
     {
-      "id": 672695,
-      "name": "Geraldo Perdomo",
-      "team": "AZ",
+      "id": 683737,
+      "name": "Michael Busch",
+      "team": "CHC",
       "score": 1,
-      "avg": 0.245
-    },
-    {
-      "id": 514888,
-      "name": "Jose Altuve",
-      "team": "HOU",
-      "score": 1,
-      "avg": 0.24
-    },
-    {
-      "id": 543807,
-      "name": "George Springer",
-      "team": "TOR",
-      "score": 1,
-      "avg": 0.233
+      "avg": 0.246
     },
     {
       "id": 664761,
@@ -424,18 +375,18 @@
       "avg": 0.224
     },
     {
-      "id": 678662,
-      "name": "Ezequiel Tovar",
-      "team": "COL",
+      "id": 592518,
+      "name": "Manny Machado",
+      "team": "SD",
       "score": 1,
-      "avg": 0.207
+      "avg": 0.215
     },
     {
-      "id": 805300,
-      "name": "Jakob Marsee",
-      "team": "MIA",
+      "id": 678545,
+      "name": "Osleivis Basabe",
+      "team": "SF",
       "score": 1,
-      "avg": 0.206
+      "avg": 0.0
     },
     {
       "id": 687749,
@@ -448,13 +399,6 @@
       "id": 621439,
       "name": "Byron Buxton",
       "team": "MIN",
-      "score": 1,
-      "avg": 0.0
-    },
-    {
-      "id": 669134,
-      "name": "Luis Campusano",
-      "team": "SD",
       "score": 1,
       "avg": 0.0
     },
@@ -473,13 +417,6 @@
       "avg": 0.0
     },
     {
-      "id": 703601,
-      "name": "Max Clark",
-      "team": "DET",
-      "score": 1,
-      "avg": 0.0
-    },
-    {
       "id": 702222,
       "name": "Justin Crawford",
       "team": "PHI",
@@ -494,9 +431,23 @@
       "avg": 0.0
     },
     {
+      "id": 665877,
+      "name": "Jos\u00e9 Ferm\u00edn",
+      "team": "STL",
+      "score": 1,
+      "avg": 0.0
+    },
+    {
       "id": 695670,
       "name": "Harry Ford",
       "team": "WSH",
+      "score": 1,
+      "avg": 0.0
+    },
+    {
+      "id": 694197,
+      "name": "Angel Genao",
+      "team": "CLE",
       "score": 1,
       "avg": 0.0
     },
@@ -508,30 +459,16 @@
       "avg": 0.0
     },
     {
-      "id": 663647,
-      "name": "Ke'Bryan Hayes",
-      "team": "CIN",
-      "score": 1,
-      "avg": 0.0
-    },
-    {
-      "id": 623168,
-      "name": "Tyler Heineman",
-      "team": "LAA",
-      "score": 1,
-      "avg": 0.0
-    },
-    {
-      "id": 691781,
-      "name": "Brady House",
-      "team": "WSH",
-      "score": 1,
-      "avg": 0.0
-    },
-    {
       "id": 663330,
       "name": "Jahmai Jones",
       "team": "BOS",
+      "score": 1,
+      "avg": 0.0
+    },
+    {
+      "id": 672386,
+      "name": "Alejandro Kirk",
+      "team": "TOR",
       "score": 1,
       "avg": 0.0
     },
@@ -550,16 +487,23 @@
       "avg": 0.0
     },
     {
-      "id": 596019,
-      "name": "Francisco Lindor",
-      "team": "NYM",
+      "id": 663993,
+      "name": "Nathaniel Lowe",
+      "team": "CLE",
       "score": 1,
       "avg": 0.0
     },
     {
-      "id": 691723,
-      "name": "Coby Mayo",
-      "team": "BAL",
+      "id": 622761,
+      "name": "Jorge Mateo",
+      "team": "TB",
+      "score": 1,
+      "avg": 0.0
+    },
+    {
+      "id": 687401,
+      "name": "Joey Ortiz",
+      "team": "MIL",
       "score": 1,
       "avg": 0.0
     },
@@ -592,6 +536,13 @@
       "avg": 0.0
     },
     {
+      "id": 645302,
+      "name": "Victor Robles",
+      "team": "SEA",
+      "score": 1,
+      "avg": 0.0
+    },
+    {
       "id": 660688,
       "name": "Keibert Ruiz",
       "team": "WSH",
@@ -599,9 +550,9 @@
       "avg": 0.0
     },
     {
-      "id": 691594,
-      "name": "Javier Sanoja",
-      "team": "MIA",
+      "id": 686765,
+      "name": "Nick Sogard",
+      "team": "BOS",
       "score": 1,
       "avg": 0.0
     },
@@ -613,18 +564,39 @@
       "avg": 0.0
     },
     {
-      "id": 694374,
-      "name": "Tim Tawa",
+      "id": 545121,
+      "name": "Ildemaro Vargas",
       "team": "AZ",
       "score": 1,
       "avg": 0.0
     },
     {
-      "id": 805779,
-      "name": "Jacob Wilson",
+      "id": 669224,
+      "name": "Austin Wells",
+      "team": "NYY",
+      "score": 1,
+      "avg": 0.0
+    },
+    {
+      "id": 695720,
+      "name": "Tommy White",
       "team": "ATH",
       "score": 1,
       "avg": 0.0
+    },
+    {
+      "id": 675961,
+      "name": "Alika Williams",
+      "team": "ATH",
+      "score": 1,
+      "avg": 0.0
+    },
+    {
+      "id": 670541,
+      "name": "Yordan Alvarez",
+      "team": "HOU",
+      "score": 0,
+      "avg": 0.323
     },
     {
       "id": 650333,
@@ -634,25 +606,11 @@
       "avg": 0.316
     },
     {
-      "id": 672640,
-      "name": "Otto Lopez",
-      "team": "MIA",
+      "id": 672515,
+      "name": "Gabriel Moreno",
+      "team": "AZ",
       "score": 0,
-      "avg": 0.312
-    },
-    {
-      "id": 693304,
-      "name": "Nick Gonzales",
-      "team": "PIT",
-      "score": 0,
-      "avg": 0.309
-    },
-    {
-      "id": 664983,
-      "name": "Jake McCarthy",
-      "team": "COL",
-      "score": 0,
-      "avg": 0.3
+      "avg": 0.304
     },
     {
       "id": 673962,
@@ -660,6 +618,20 @@
       "team": "TEX",
       "score": 0,
       "avg": 0.294
+    },
+    {
+      "id": 689414,
+      "name": "Liam Hicks",
+      "team": "TB",
+      "score": 0,
+      "avg": 0.285
+    },
+    {
+      "id": 671277,
+      "name": "Luis Garc\u00eda Jr.",
+      "team": "NYY",
+      "score": 0,
+      "avg": 0.278
     },
     {
       "id": 669477,
@@ -676,25 +648,11 @@
       "avg": 0.27
     },
     {
-      "id": 680757,
-      "name": "Steven Kwan",
-      "team": "CLE",
-      "score": 0,
-      "avg": 0.265
-    },
-    {
       "id": 695578,
       "name": "James Wood",
       "team": "WSH",
       "score": 0,
       "avg": 0.265
-    },
-    {
-      "id": 647304,
-      "name": "Josh Naylor",
-      "team": "SEA",
-      "score": 0,
-      "avg": 0.264
     },
     {
       "id": 669127,
@@ -718,6 +676,20 @@
       "avg": 0.259
     },
     {
+      "id": 701398,
+      "name": "Sal Stewart",
+      "team": "CIN",
+      "score": 0,
+      "avg": 0.259
+    },
+    {
+      "id": 702284,
+      "name": "Cole Young",
+      "team": "SEA",
+      "score": 0,
+      "avg": 0.258
+    },
+    {
       "id": 701762,
       "name": "Nick Kurtz",
       "team": "ATH",
@@ -728,13 +700,6 @@
       "id": 701538,
       "name": "Jackson Merrill",
       "team": "SD",
-      "score": 0,
-      "avg": 0.247
-    },
-    {
-      "id": 545361,
-      "name": "Mike Trout",
-      "team": "LAA",
       "score": 0,
       "avg": 0.245
     },
@@ -753,25 +718,18 @@
       "avg": 0.232
     },
     {
-      "id": 701358,
-      "name": "Cam Smith",
-      "team": "HOU",
+      "id": 678662,
+      "name": "Ezequiel Tovar",
+      "team": "COL",
       "score": 0,
-      "avg": 0.224
+      "avg": 0.208
     },
     {
-      "id": 663757,
-      "name": "Trent Grisham",
-      "team": "NYY",
+      "id": 805300,
+      "name": "Jakob Marsee",
+      "team": "MIA",
       "score": 0,
-      "avg": 0.222
-    },
-    {
-      "id": 592518,
-      "name": "Manny Machado",
-      "team": "SD",
-      "score": 0,
-      "avg": 0.213
+      "avg": 0.204
     },
     {
       "id": 682634,
@@ -872,13 +830,6 @@
       "avg": 0.0
     },
     {
-      "id": 678545,
-      "name": "Osleivis Basabe",
-      "team": "SF",
-      "score": 0,
-      "avg": 0.0
-    },
-    {
       "id": 694212,
       "name": "Samuel Basallo",
       "team": "BAL",
@@ -910,13 +861,6 @@
       "id": 669208,
       "name": "Ryan Bliss",
       "team": "SEA",
-      "score": 0,
-      "avg": 0.0
-    },
-    {
-      "id": 703607,
-      "name": "Henry Bolte",
-      "team": "ATH",
       "score": 0,
       "avg": 0.0
     },
@@ -998,6 +942,13 @@
       "avg": 0.0
     },
     {
+      "id": 694497,
+      "name": "Evan Carter",
+      "team": "TEX",
+      "score": 0,
+      "avg": 0.0
+    },
+    {
       "id": 592206,
       "name": "Nick Castellanos",
       "team": "SD",
@@ -1029,6 +980,13 @@
       "id": 691907,
       "name": "Tsung-Che Cheng",
       "team": "BOS",
+      "score": 0,
+      "avg": 0.0
+    },
+    {
+      "id": 703601,
+      "name": "Max Clark",
+      "team": "DET",
       "score": 0,
       "avg": 0.0
     },
@@ -1131,6 +1089,20 @@
       "avg": 0.0
     },
     {
+      "id": 680977,
+      "name": "Brendan Donovan",
+      "team": "SEA",
+      "score": 0,
+      "avg": 0.0
+    },
+    {
+      "id": 686668,
+      "name": "Brenton Doyle",
+      "team": "CWS",
+      "score": 0,
+      "avg": 0.0
+    },
+    {
       "id": 694362,
       "name": "Blake Dunn",
       "team": "CIN",
@@ -1222,13 +1194,6 @@
       "avg": 0.0
     },
     {
-      "id": 683227,
-      "name": "Cody Freeman",
-      "team": "TEX",
-      "score": 0,
-      "avg": 0.0
-    },
-    {
       "id": 671289,
       "name": "Tyler Freeman",
       "team": "COL",
@@ -1309,6 +1274,13 @@
       "id": 694224,
       "name": "Gabriel Gonzalez",
       "team": "MIN",
+      "score": 0,
+      "avg": 0.0
+    },
+    {
+      "id": 694378,
+      "name": "Jacob Gonzalez",
+      "team": "PIT",
       "score": 0,
       "avg": 0.0
     },
@@ -1649,13 +1621,6 @@
       "avg": 0.0
     },
     {
-      "id": 668800,
-      "name": "Andrew Knizner",
-      "team": "SF",
-      "score": 0,
-      "avg": 0.0
-    },
-    {
       "id": 811965,
       "name": "Joshua Kuroda-Grauer",
       "team": "ATH",
@@ -1694,13 +1659,6 @@
       "id": 694388,
       "name": "Joey Loperfido",
       "team": "HOU",
-      "score": 0,
-      "avg": 0.0
-    },
-    {
-      "id": 663993,
-      "name": "Nathaniel Lowe",
-      "team": "CLE",
       "score": 0,
       "avg": 0.0
     },
@@ -1747,16 +1705,16 @@
       "avg": 0.0
     },
     {
-      "id": 670156,
-      "name": "Miles Mastrobuoni",
-      "team": "SEA",
+      "id": 682657,
+      "name": "Angel Mart\u00ednez",
+      "team": "CLE",
       "score": 0,
       "avg": 0.0
     },
     {
-      "id": 622761,
-      "name": "Jorge Mateo",
-      "team": "TB",
+      "id": 670156,
+      "name": "Miles Mastrobuoni",
+      "team": "SEA",
       "score": 0,
       "avg": 0.0
     },
@@ -1799,13 +1757,6 @@
       "id": 624512,
       "name": "Reese McGuire",
       "team": "CWS",
-      "score": 0,
-      "avg": 0.0
-    },
-    {
-      "id": 656716,
-      "name": "Zach McKinstry",
-      "team": "DET",
       "score": 0,
       "avg": 0.0
     },
@@ -1854,7 +1805,7 @@
     {
       "id": 670224,
       "name": "Kameron Misner",
-      "team": "PHI",
+      "team": "KC",
       "score": 0,
       "avg": 0.0
     },
@@ -1978,9 +1929,23 @@
       "avg": 0.0
     },
     {
+      "id": 680700,
+      "name": "Richie Palacios",
+      "team": "TB",
+      "score": 0,
+      "avg": 0.0
+    },
+    {
       "id": 686469,
       "name": "Vinnie Pasquantino",
       "team": "KC",
+      "score": 0,
+      "avg": 0.0
+    },
+    {
+      "id": 688363,
+      "name": "Graham Pauley",
+      "team": "MIA",
       "score": 0,
       "avg": 0.0
     },
@@ -2083,13 +2048,6 @@
       "avg": 0.0
     },
     {
-      "id": 650859,
-      "name": "Luis Rengifo",
-      "team": "SD",
-      "score": 0,
-      "avg": 0.0
-    },
-    {
       "id": 694025,
       "name": "Felix Reyes",
       "team": "PHI",
@@ -2118,8 +2076,8 @@
       "avg": 0.0
     },
     {
-      "id": 645302,
-      "name": "Victor Robles",
+      "id": 801126,
+      "name": "Brock Rodden",
       "team": "SEA",
       "score": 0,
       "avg": 0.0
@@ -2160,20 +2118,6 @@
       "avg": 0.0
     },
     {
-      "id": 668942,
-      "name": "Josh Rojas",
-      "team": "KC",
-      "score": 0,
-      "avg": 0.0
-    },
-    {
-      "id": 691011,
-      "name": "Drew Romo",
-      "team": "CWS",
-      "score": 0,
-      "avg": 0.0
-    },
-    {
       "id": 667670,
       "name": "Brent Rooker",
       "team": "ATH",
@@ -2205,6 +2149,13 @@
       "id": 663967,
       "name": "C\u00e9sar Salazar",
       "team": "HOU",
+      "score": 0,
+      "avg": 0.0
+    },
+    {
+      "id": 691594,
+      "name": "Javier Sanoja",
+      "team": "MIA",
       "score": 0,
       "avg": 0.0
     },
@@ -2531,6 +2482,13 @@
       "avg": 0.0
     },
     {
+      "id": 622268,
+      "name": "Donovan Walton",
+      "team": "ATH",
+      "score": 0,
+      "avg": 0.0
+    },
+    {
       "id": 669899,
       "name": "Ryan Ward",
       "team": "LAD",
@@ -2555,13 +2513,6 @@
       "id": 694376,
       "name": "Shay Whitcomb",
       "team": "HOU",
-      "score": 0,
-      "avg": 0.0
-    },
-    {
-      "id": 695720,
-      "name": "Tommy White",
-      "team": "ATH",
       "score": 0,
       "avg": 0.0
     },
@@ -2615,13 +2566,6 @@
       "avg": 0.0
     },
     {
-      "id": 573262,
-      "name": "Mike Yastrzemski",
-      "team": "ATL",
-      "score": 0,
-      "avg": 0.0
-    },
-    {
       "id": 694377,
       "name": "Nick Yorke",
       "team": "PIT",
@@ -2629,11 +2573,39 @@
       "avg": 0.0
     },
     {
+      "id": 664983,
+      "name": "Jake McCarthy",
+      "team": "COL",
+      "score": -1,
+      "avg": 0.296
+    },
+    {
       "id": 676475,
       "name": "Alec Burleson",
       "team": "STL",
       "score": -1,
-      "avg": 0.287
+      "avg": 0.285
+    },
+    {
+      "id": 691023,
+      "name": "Jordan Walker",
+      "team": "STL",
+      "score": -1,
+      "avg": 0.282
+    },
+    {
+      "id": 805367,
+      "name": "Chase Meidroth",
+      "team": "CWS",
+      "score": -1,
+      "avg": 0.28
+    },
+    {
+      "id": 681624,
+      "name": "Andy Pages",
+      "team": "LAD",
+      "score": -1,
+      "avg": 0.272
     },
     {
       "id": 807712,
@@ -2643,39 +2615,39 @@
       "avg": 0.266
     },
     {
+      "id": 680757,
+      "name": "Steven Kwan",
+      "team": "CLE",
+      "score": -1,
+      "avg": 0.266
+    },
+    {
+      "id": 668804,
+      "name": "Bryan Reynolds",
+      "team": "PIT",
+      "score": -1,
+      "avg": 0.264
+    },
+    {
       "id": 650489,
       "name": "Willi Castro",
       "team": "COL",
       "score": -1,
-      "avg": 0.265
-    },
-    {
-      "id": 701398,
-      "name": "Sal Stewart",
-      "team": "CIN",
-      "score": -1,
-      "avg": 0.259
+      "avg": 0.262
     },
     {
       "id": 677587,
       "name": "Brayan Rocchio",
       "team": "CLE",
       "score": -1,
-      "avg": 0.252
+      "avg": 0.254
     },
     {
-      "id": 691026,
-      "name": "Masyn Winn",
-      "team": "STL",
+      "id": 545361,
+      "name": "Mike Trout",
+      "team": "LAA",
       "score": -1,
-      "avg": 0.243
-    },
-    {
-      "id": 571448,
-      "name": "Nolan Arenado",
-      "team": "AZ",
-      "score": -1,
-      "avg": 0.242
+      "avg": 0.244
     },
     {
       "id": 669065,
@@ -2696,7 +2668,7 @@
       "name": "Christian Walker",
       "team": "HOU",
       "score": -1,
-      "avg": 0.236
+      "avg": 0.238
     },
     {
       "id": 608070,
@@ -2706,37 +2678,44 @@
       "avg": 0.231
     },
     {
-      "id": 683083,
-      "name": "Nasim Nu\u00f1ez",
-      "team": "WSH",
+      "id": 543807,
+      "name": "George Springer",
+      "team": "TOR",
       "score": -1,
-      "avg": 0.23
+      "avg": 0.231
     },
     {
       "id": 672960,
       "name": "Kazuma Okamoto",
       "team": "TOR",
       "score": -1,
-      "avg": 0.226
+      "avg": 0.227
+    },
+    {
+      "id": 663757,
+      "name": "Trent Grisham",
+      "team": "NYY",
+      "score": -1,
+      "avg": 0.225
     },
     {
       "id": 687263,
       "name": "Zach Neto",
       "team": "LAA",
       "score": -1,
-      "avg": 0.224
+      "avg": 0.225
     },
     {
-      "id": 664023,
-      "name": "Ian Happ",
-      "team": "CHC",
+      "id": 701358,
+      "name": "Cam Smith",
+      "team": "HOU",
       "score": -1,
-      "avg": 0.216
+      "avg": 0.225
     },
     {
-      "id": 643217,
-      "name": "Andrew Benintendi",
-      "team": "CWS",
+      "id": 703607,
+      "name": "Henry Bolte",
+      "team": "ATH",
       "score": -1,
       "avg": 0.0
     },
@@ -2751,13 +2730,6 @@
       "id": 694249,
       "name": "Cole Carrigg",
       "team": "COL",
-      "score": -1,
-      "avg": 0.0
-    },
-    {
-      "id": 694497,
-      "name": "Evan Carter",
-      "team": "TEX",
       "score": -1,
       "avg": 0.0
     },
@@ -2790,23 +2762,9 @@
       "avg": 0.0
     },
     {
-      "id": 680977,
-      "name": "Brendan Donovan",
-      "team": "SEA",
-      "score": -1,
-      "avg": 0.0
-    },
-    {
-      "id": 553869,
-      "name": "Elias D\u00edaz",
+      "id": 683227,
+      "name": "Cody Freeman",
       "team": "TEX",
-      "score": -1,
-      "avg": 0.0
-    },
-    {
-      "id": 676439,
-      "name": "Hunter Feduccia",
-      "team": "LAD",
       "score": -1,
       "avg": 0.0
     },
@@ -2825,37 +2783,9 @@
       "avg": 0.0
     },
     {
-      "id": 694197,
-      "name": "Angel Genao",
-      "team": "CLE",
-      "score": -1,
-      "avg": 0.0
-    },
-    {
-      "id": 687093,
-      "name": "Vaughn Grissom",
-      "team": "LAA",
-      "score": -1,
-      "avg": 0.0
-    },
-    {
-      "id": 666152,
-      "name": "David Hamilton",
-      "team": "MIL",
-      "score": -1,
-      "avg": 0.0
-    },
-    {
       "id": 669720,
       "name": "Austin Hays",
       "team": "SD",
-      "score": -1,
-      "avg": 0.0
-    },
-    {
-      "id": 641680,
-      "name": "Jonah Heim",
-      "team": "ATH",
       "score": -1,
       "avg": 0.0
     },
@@ -2881,16 +2811,16 @@
       "avg": 0.0
     },
     {
-      "id": 677870,
-      "name": "Leo Jim\u00e9nez",
-      "team": "MIA",
+      "id": 687859,
+      "name": "Troy Johnston",
+      "team": "COL",
       "score": -1,
       "avg": 0.0
     },
     {
-      "id": 660670,
-      "name": "Ronald Acu\u00f1a Jr.",
-      "team": "ATL",
+      "id": 683748,
+      "name": "Victor Mesa Jr.",
+      "team": "TB",
       "score": -1,
       "avg": 0.0
     },
@@ -2909,6 +2839,13 @@
       "avg": 0.0
     },
     {
+      "id": 668800,
+      "name": "Andrew Knizner",
+      "team": "SF",
+      "score": -1,
+      "avg": 0.0
+    },
+    {
       "id": 800325,
       "name": "Luis Lara",
       "team": "MIL",
@@ -2916,9 +2853,9 @@
       "avg": 0.0
     },
     {
-      "id": 682988,
-      "name": "Tyler Locklear",
-      "team": "AZ",
+      "id": 596019,
+      "name": "Francisco Lindor",
+      "team": "NYM",
       "score": -1,
       "avg": 0.0
     },
@@ -2930,16 +2867,9 @@
       "avg": 0.0
     },
     {
-      "id": 701162,
-      "name": "Ben Malgeri",
-      "team": "DET",
-      "score": -1,
-      "avg": 0.0
-    },
-    {
-      "id": 682622,
-      "name": "Noelvi Marte",
-      "team": "CIN",
+      "id": 691723,
+      "name": "Coby Mayo",
+      "team": "BAL",
       "score": -1,
       "avg": 0.0
     },
@@ -2951,9 +2881,9 @@
       "avg": 0.0
     },
     {
-      "id": 685133,
-      "name": "Wade Meckler",
-      "team": "LAA",
+      "id": 656716,
+      "name": "Zach McKinstry",
+      "team": "DET",
       "score": -1,
       "avg": 0.0
     },
@@ -2979,27 +2909,6 @@
       "avg": 0.0
     },
     {
-      "id": 687401,
-      "name": "Joey Ortiz",
-      "team": "MIL",
-      "score": -1,
-      "avg": 0.0
-    },
-    {
-      "id": 680700,
-      "name": "Richie Palacios",
-      "team": "TB",
-      "score": -1,
-      "avg": 0.0
-    },
-    {
-      "id": 688363,
-      "name": "Graham Pauley",
-      "team": "MIA",
-      "score": -1,
-      "avg": 0.0
-    },
-    {
       "id": 593871,
       "name": "Jorge Polanco",
       "team": "NYM",
@@ -3009,6 +2918,13 @@
     {
       "id": 700337,
       "name": "Edgar Quero",
+      "team": "CWS",
+      "score": -1,
+      "avg": 0.0
+    },
+    {
+      "id": 691011,
+      "name": "Drew Romo",
       "team": "CWS",
       "score": -1,
       "avg": 0.0
@@ -3035,6 +2951,13 @@
       "avg": 0.0
     },
     {
+      "id": 663886,
+      "name": "Tyler Stephenson",
+      "team": "CIN",
+      "score": -1,
+      "avg": 0.0
+    },
+    {
       "id": 691740,
       "name": "Daniel Susac",
       "team": "SF",
@@ -3045,6 +2968,13 @@
       "id": 553993,
       "name": "Eugenio Su\u00e1rez",
       "team": "CIN",
+      "score": -1,
+      "avg": 0.0
+    },
+    {
+      "id": 694374,
+      "name": "Tim Tawa",
+      "team": "AZ",
       "score": -1,
       "avg": 0.0
     },
@@ -3070,16 +3000,16 @@
       "avg": 0.0
     },
     {
-      "id": 699013,
-      "name": "Esmerlyn Valdez",
-      "team": "PIT",
+      "id": 683734,
+      "name": "Andrew Vaughn",
+      "team": "MIL",
       "score": -1,
       "avg": 0.0
     },
     {
-      "id": 545121,
-      "name": "Ildemaro Vargas",
-      "team": "AZ",
+      "id": 573262,
+      "name": "Mike Yastrzemski",
+      "team": "ATL",
       "score": -1,
       "avg": 0.0
     },
@@ -3091,18 +3021,18 @@
       "avg": 0.294
     },
     {
-      "id": 660271,
-      "name": "Shohei Ohtani",
-      "team": "LAD",
-      "score": -2,
-      "avg": 0.292
-    },
-    {
       "id": 805808,
       "name": "Kevin McGonigle",
       "team": "DET",
       "score": -2,
-      "avg": 0.286
+      "avg": 0.285
+    },
+    {
+      "id": 676391,
+      "name": "Ernie Clement",
+      "team": "TOR",
+      "score": -2,
+      "avg": 0.28
     },
     {
       "id": 682985,
@@ -3116,47 +3046,33 @@
       "name": "Seiya Suzuki",
       "team": "CHC",
       "score": -2,
-      "avg": 0.271
+      "avg": 0.273
     },
     {
       "id": 624413,
       "name": "Pete Alonso",
       "team": "BAL",
       "score": -2,
-      "avg": 0.259
+      "avg": 0.26
     },
     {
-      "id": 571970,
-      "name": "Max Muncy",
-      "team": "LAD",
+      "id": 686555,
+      "name": "Isaac Collins",
+      "team": "KC",
       "score": -2,
-      "avg": 0.25
-    },
-    {
-      "id": 691016,
-      "name": "Tyler Soderstrom",
-      "team": "ATH",
-      "score": -2,
-      "avg": 0.245
-    },
-    {
-      "id": 683953,
-      "name": "Travis Bazzana",
-      "team": "CLE",
-      "score": -2,
-      "avg": 0.239
-    },
-    {
-      "id": 663586,
-      "name": "Austin Riley",
-      "team": "ATL",
-      "score": -2,
-      "avg": 0.225
+      "avg": 0.233
     },
     {
       "id": 687597,
       "name": "Jordan Beck",
       "team": "COL",
+      "score": -2,
+      "avg": 0.0
+    },
+    {
+      "id": 643217,
+      "name": "Andrew Benintendi",
+      "team": "CWS",
       "score": -2,
       "avg": 0.0
     },
@@ -3175,29 +3091,15 @@
       "avg": 0.0
     },
     {
-      "id": 681297,
-      "name": "Colton Cowser",
-      "team": "BAL",
+      "id": 553869,
+      "name": "Elias D\u00edaz",
+      "team": "TEX",
       "score": -2,
       "avg": 0.0
     },
     {
-      "id": 686611,
-      "name": "Dylan Crews",
-      "team": "WSH",
-      "score": -2,
-      "avg": 0.0
-    },
-    {
-      "id": 680779,
-      "name": "Henry Davis",
-      "team": "PIT",
-      "score": -2,
-      "avg": 0.0
-    },
-    {
-      "id": 669242,
-      "name": "Tommy Edman",
+      "id": 676439,
+      "name": "Hunter Feduccia",
       "team": "LAD",
       "score": -2,
       "avg": 0.0
@@ -3224,9 +3126,9 @@
       "avg": 0.0
     },
     {
-      "id": 694378,
-      "name": "Jacob Gonzalez",
-      "team": "PIT",
+      "id": 666152,
+      "name": "David Hamilton",
+      "team": "MIL",
       "score": -2,
       "avg": 0.0
     },
@@ -3238,23 +3140,23 @@
       "avg": 0.0
     },
     {
+      "id": 641680,
+      "name": "Jonah Heim",
+      "team": "ATH",
+      "score": -2,
+      "avg": 0.0
+    },
+    {
+      "id": 677870,
+      "name": "Leo Jim\u00e9nez",
+      "team": "MIA",
+      "score": -2,
+      "avg": 0.0
+    },
+    {
       "id": 691458,
       "name": "Blaze Jordan",
       "team": "STL",
-      "score": -2,
-      "avg": 0.0
-    },
-    {
-      "id": 806146,
-      "name": "George Lombard Jr.",
-      "team": "NYY",
-      "score": -2,
-      "avg": 0.0
-    },
-    {
-      "id": 683748,
-      "name": "Victor Mesa Jr.",
-      "team": "TB",
       "score": -2,
       "avg": 0.0
     },
@@ -3266,13 +3168,6 @@
       "avg": 0.0
     },
     {
-      "id": 608348,
-      "name": "Carson Kelly",
-      "team": "CHC",
-      "score": -2,
-      "avg": 0.0
-    },
-    {
       "id": 596146,
       "name": "Max Kepler",
       "team": "AZ",
@@ -3280,16 +3175,16 @@
       "avg": 0.0
     },
     {
-      "id": 679845,
-      "name": "Nick Loftin",
-      "team": "KC",
+      "id": 682988,
+      "name": "Tyler Locklear",
+      "team": "AZ",
       "score": -2,
       "avg": 0.0
     },
     {
-      "id": 663968,
-      "name": "Jake Mangum",
-      "team": "PIT",
+      "id": 682622,
+      "name": "Noelvi Marte",
+      "team": "CIN",
       "score": -2,
       "avg": 0.0
     },
@@ -3308,16 +3203,16 @@
       "avg": 0.0
     },
     {
-      "id": 694673,
-      "name": "Abimelec Ortiz",
-      "team": "WSH",
+      "id": 677592,
+      "name": "Everson Pereira",
+      "team": "STL",
       "score": -2,
       "avg": 0.0
     },
     {
-      "id": 677592,
-      "name": "Everson Pereira",
-      "team": "STL",
+      "id": 650859,
+      "name": "Luis Rengifo",
+      "team": "SD",
       "score": -2,
       "avg": 0.0
     },
@@ -3329,37 +3224,16 @@
       "avg": 0.0
     },
     {
+      "id": 668942,
+      "name": "Josh Rojas",
+      "team": "KC",
+      "score": -2,
+      "avg": 0.0
+    },
+    {
       "id": 500743,
       "name": "Miguel Rojas",
       "team": "LAD",
-      "score": -2,
-      "avg": 0.0
-    },
-    {
-      "id": 665923,
-      "name": "Esteury Ruiz",
-      "team": "MIA",
-      "score": -2,
-      "avg": 0.0
-    },
-    {
-      "id": 608369,
-      "name": "Corey Seager",
-      "team": "TEX",
-      "score": -2,
-      "avg": 0.0
-    },
-    {
-      "id": 686765,
-      "name": "Nick Sogard",
-      "team": "BOS",
-      "score": -2,
-      "avg": 0.0
-    },
-    {
-      "id": 663886,
-      "name": "Tyler Stephenson",
-      "team": "CIN",
       "score": -2,
       "avg": 0.0
     },
@@ -3371,9 +3245,9 @@
       "avg": 0.0
     },
     {
-      "id": 660821,
-      "name": "Jes\u00fas S\u00e1nchez",
-      "team": "TOR",
+      "id": 664954,
+      "name": "Brett Sullivan",
+      "team": "COL",
       "score": -2,
       "avg": 0.0
     },
@@ -3406,30 +3280,16 @@
       "avg": 0.0
     },
     {
-      "id": 669707,
-      "name": "Jared Triolo",
+      "id": 699013,
+      "name": "Esmerlyn Valdez",
       "team": "PIT",
       "score": -2,
       "avg": 0.0
     },
     {
-      "id": 683734,
-      "name": "Andrew Vaughn",
-      "team": "MIL",
-      "score": -2,
-      "avg": 0.0
-    },
-    {
-      "id": 691728,
-      "name": "Zac Veen",
-      "team": "COL",
-      "score": -2,
-      "avg": 0.0
-    },
-    {
-      "id": 668723,
-      "name": "Ryan Vilade",
-      "team": "TB",
+      "id": 680664,
+      "name": "Eduardo Valencia",
+      "team": "DET",
       "score": -2,
       "avg": 0.0
     },
@@ -3455,53 +3315,11 @@
       "avg": 0.304
     },
     {
-      "id": 677951,
-      "name": "Bobby Witt Jr.",
-      "team": "KC",
+      "id": 694384,
+      "name": "Nolan Schanuel",
+      "team": "LAA",
       "score": -3,
-      "avg": 0.285
-    },
-    {
-      "id": 665487,
-      "name": "Fernando Tatis Jr.",
-      "team": "SD",
-      "score": -3,
-      "avg": 0.281
-    },
-    {
-      "id": 676391,
-      "name": "Ernie Clement",
-      "team": "TOR",
-      "score": -3,
-      "avg": 0.28
-    },
-    {
-      "id": 575929,
-      "name": "Willson Contreras",
-      "team": "BOS",
-      "score": -3,
-      "avg": 0.28
-    },
-    {
-      "id": 805367,
-      "name": "Chase Meidroth",
-      "team": "CWS",
-      "score": -3,
-      "avg": 0.279
-    },
-    {
-      "id": 682829,
-      "name": "Elly De La Cruz",
-      "team": "CIN",
-      "score": -3,
-      "avg": 0.268
-    },
-    {
-      "id": 681624,
-      "name": "Andy Pages",
-      "team": "LAD",
-      "score": -3,
-      "avg": 0.268
+      "avg": 0.273
     },
     {
       "id": 691720,
@@ -3511,32 +3329,39 @@
       "avg": 0.265
     },
     {
-      "id": 668804,
-      "name": "Bryan Reynolds",
-      "team": "PIT",
-      "score": -3,
-      "avg": 0.262
-    },
-    {
-      "id": 645277,
-      "name": "Ozzie Albies",
-      "team": "ATL",
-      "score": -3,
-      "avg": 0.256
-    },
-    {
-      "id": 702332,
-      "name": "Caleb Durbin",
+      "id": 677800,
+      "name": "Wilyer Abreu",
       "team": "BOS",
       "score": -3,
-      "avg": 0.253
+      "avg": 0.254
+    },
+    {
+      "id": 571970,
+      "name": "Max Muncy",
+      "team": "LAD",
+      "score": -3,
+      "avg": 0.25
     },
     {
       "id": 682998,
       "name": "Corbin Carroll",
       "team": "AZ",
       "score": -3,
-      "avg": 0.243
+      "avg": 0.246
+    },
+    {
+      "id": 691026,
+      "name": "Masyn Winn",
+      "team": "STL",
+      "score": -3,
+      "avg": 0.241
+    },
+    {
+      "id": 678246,
+      "name": "Miguel Vargas",
+      "team": "CWS",
+      "score": -3,
+      "avg": 0.239
     },
     {
       "id": 665926,
@@ -3546,25 +3371,32 @@
       "avg": 0.238
     },
     {
-      "id": 669394,
-      "name": "Jake Burger",
-      "team": "TEX",
+      "id": 683083,
+      "name": "Nasim Nu\u00f1ez",
+      "team": "WSH",
       "score": -3,
-      "avg": 0.233
+      "avg": 0.228
     },
     {
-      "id": 686555,
-      "name": "Isaac Collins",
-      "team": "KC",
+      "id": 663586,
+      "name": "Austin Riley",
+      "team": "ATL",
       "score": -3,
-      "avg": 0.233
+      "avg": 0.223
     },
     {
-      "id": 678246,
-      "name": "Miguel Vargas",
-      "team": "CWS",
+      "id": 664023,
+      "name": "Ian Happ",
+      "team": "CHC",
       "score": -3,
-      "avg": 0.232
+      "avg": 0.215
+    },
+    {
+      "id": 543760,
+      "name": "Marcus Semien",
+      "team": "NYM",
+      "score": -3,
+      "avg": 0.211
     },
     {
       "id": 682668,
@@ -3595,16 +3427,37 @@
       "avg": 0.0
     },
     {
-      "id": 686527,
-      "name": "Dominic Canzone",
-      "team": "SEA",
+      "id": 624424,
+      "name": "Michael Conforto",
+      "team": "CHC",
       "score": -3,
       "avg": 0.0
     },
     {
-      "id": 624424,
-      "name": "Michael Conforto",
-      "team": "CHC",
+      "id": 686611,
+      "name": "Dylan Crews",
+      "team": "WSH",
+      "score": -3,
+      "avg": 0.0
+    },
+    {
+      "id": 630105,
+      "name": "Jake Cronenworth",
+      "team": "SD",
+      "score": -3,
+      "avg": 0.0
+    },
+    {
+      "id": 680779,
+      "name": "Henry Davis",
+      "team": "PIT",
+      "score": -3,
+      "avg": 0.0
+    },
+    {
+      "id": 669242,
+      "name": "Tommy Edman",
+      "team": "LAD",
       "score": -3,
       "avg": 0.0
     },
@@ -3616,30 +3469,23 @@
       "avg": 0.0
     },
     {
-      "id": 680869,
-      "name": "Zack Gelof",
-      "team": "ATH",
-      "score": -3,
-      "avg": 0.0
-    },
-    {
-      "id": 571771,
-      "name": "Enrique Hern\u00e1ndez",
-      "team": "LAD",
-      "score": -3,
-      "avg": 0.0
-    },
-    {
-      "id": 669236,
-      "name": "Jeremiah Jackson",
-      "team": "BAL",
-      "score": -3,
-      "avg": 0.0
-    },
-    {
       "id": 682987,
       "name": "Spencer Jones",
       "team": "NYY",
+      "score": -3,
+      "avg": 0.0
+    },
+    {
+      "id": 806146,
+      "name": "George Lombard Jr.",
+      "team": "NYY",
+      "score": -3,
+      "avg": 0.0
+    },
+    {
+      "id": 608348,
+      "name": "Carson Kelly",
+      "team": "CHC",
       "score": -3,
       "avg": 0.0
     },
@@ -3651,16 +3497,16 @@
       "avg": 0.0
     },
     {
-      "id": 666139,
-      "name": "Josh Lowe",
-      "team": "LAA",
+      "id": 691788,
+      "name": "Joe Mack",
+      "team": "MIA",
       "score": -3,
       "avg": 0.0
     },
     {
-      "id": 691788,
-      "name": "Joe Mack",
-      "team": "MIA",
+      "id": 663968,
+      "name": "Jake Mangum",
+      "team": "PIT",
       "score": -3,
       "avg": 0.0
     },
@@ -3679,9 +3525,30 @@
       "avg": 0.0
     },
     {
+      "id": 685133,
+      "name": "Wade Meckler",
+      "team": "LAA",
+      "score": -3,
+      "avg": 0.0
+    },
+    {
+      "id": 671976,
+      "name": "Tristan Peters",
+      "team": "CWS",
+      "score": -3,
+      "avg": 0.0
+    },
+    {
       "id": 670231,
       "name": "John Rave",
       "team": "KC",
+      "score": -3,
+      "avg": 0.0
+    },
+    {
+      "id": 665923,
+      "name": "Esteury Ruiz",
+      "team": "MIA",
       "score": -3,
       "avg": 0.0
     },
@@ -3700,20 +3567,6 @@
       "avg": 0.0
     },
     {
-      "id": 664954,
-      "name": "Brett Sullivan",
-      "team": "COL",
-      "score": -3,
-      "avg": 0.0
-    },
-    {
-      "id": 677588,
-      "name": "Jos\u00e9 Tena",
-      "team": "WSH",
-      "score": -3,
-      "avg": 0.0
-    },
-    {
       "id": 657041,
       "name": "Lane Thomas",
       "team": "ATL",
@@ -3721,9 +3574,16 @@
       "avg": 0.0
     },
     {
-      "id": 680664,
-      "name": "Eduardo Valencia",
-      "team": "DET",
+      "id": 668723,
+      "name": "Ryan Vilade",
+      "team": "TB",
+      "score": -3,
+      "avg": 0.0
+    },
+    {
+      "id": 814439,
+      "name": "Ryan Waldschmidt",
+      "team": "AZ",
       "score": -3,
       "avg": 0.0
     },
@@ -3742,18 +3602,18 @@
       "avg": 0.0
     },
     {
-      "id": 592885,
-      "name": "Christian Yelich",
-      "team": "MIL",
-      "score": -3,
-      "avg": 0.0
-    },
-    {
       "id": 808982,
       "name": "Jung Hoo Lee",
       "team": "SF",
       "score": -4,
-      "avg": 0.293
+      "avg": 0.29
+    },
+    {
+      "id": 660271,
+      "name": "Shohei Ohtani",
+      "team": "LAD",
+      "score": -4,
+      "avg": 0.29
     },
     {
       "id": 669364,
@@ -3763,25 +3623,39 @@
       "avg": 0.282
     },
     {
-      "id": 607043,
-      "name": "Brandon Nimmo",
-      "team": "TEX",
+      "id": 575929,
+      "name": "Willson Contreras",
+      "team": "BOS",
       "score": -4,
-      "avg": 0.274
+      "avg": 0.281
     },
     {
-      "id": 641343,
-      "name": "Jake Bauers",
-      "team": "MIL",
+      "id": 677649,
+      "name": "Ezequiel Duran",
+      "team": "TEX",
       "score": -4,
       "avg": 0.268
     },
     {
-      "id": 677800,
-      "name": "Wilyer Abreu",
-      "team": "BOS",
+      "id": 682829,
+      "name": "Elly De La Cruz",
+      "team": "CIN",
+      "score": -4,
+      "avg": 0.266
+    },
+    {
+      "id": 645277,
+      "name": "Ozzie Albies",
+      "team": "ATL",
       "score": -4,
       "avg": 0.254
+    },
+    {
+      "id": 702332,
+      "name": "Caleb Durbin",
+      "team": "BOS",
+      "score": -4,
+      "avg": 0.251
     },
     {
       "id": 696100,
@@ -3791,32 +3665,32 @@
       "avg": 0.251
     },
     {
-      "id": 593428,
-      "name": "Xander Bogaerts",
-      "team": "SD",
+      "id": 691016,
+      "name": "Tyler Soderstrom",
+      "team": "ATH",
       "score": -4,
-      "avg": 0.221
+      "avg": 0.245
     },
     {
-      "id": 543760,
-      "name": "Marcus Semien",
-      "team": "NYM",
+      "id": 571448,
+      "name": "Nolan Arenado",
+      "team": "AZ",
       "score": -4,
-      "avg": 0.21
+      "avg": 0.24
     },
     {
-      "id": 680776,
-      "name": "Jarren Duran",
-      "team": "BOS",
-      "score": -4,
-      "avg": 0.201
-    },
-    {
-      "id": 672275,
-      "name": "Patrick Bailey",
+      "id": 683953,
+      "name": "Travis Bazzana",
       "team": "CLE",
       "score": -4,
-      "avg": 0.0
+      "avg": 0.236
+    },
+    {
+      "id": 683002,
+      "name": "Gunnar Henderson",
+      "team": "BAL",
+      "score": -4,
+      "avg": 0.221
     },
     {
       "id": 682674,
@@ -3826,23 +3700,16 @@
       "avg": 0.0
     },
     {
-      "id": 671732,
-      "name": "Lawrence Butler",
-      "team": "ATH",
+      "id": 686527,
+      "name": "Dominic Canzone",
+      "team": "SEA",
       "score": -4,
       "avg": 0.0
     },
     {
-      "id": 683357,
-      "name": "Owen Caissie",
-      "team": "MIA",
-      "score": -4,
-      "avg": 0.0
-    },
-    {
-      "id": 630105,
-      "name": "Jake Cronenworth",
-      "team": "SD",
+      "id": 681297,
+      "name": "Colton Cowser",
+      "team": "BAL",
       "score": -4,
       "avg": 0.0
     },
@@ -3854,15 +3721,29 @@
       "avg": 0.0
     },
     {
-      "id": 606192,
-      "name": "Teoscar Hern\u00e1ndez",
+      "id": 687093,
+      "name": "Vaughn Grissom",
+      "team": "LAA",
+      "score": -4,
+      "avg": 0.0
+    },
+    {
+      "id": 571771,
+      "name": "Enrique Hern\u00e1ndez",
       "team": "LAD",
       "score": -4,
       "avg": 0.0
     },
     {
-      "id": 805347,
-      "name": "Jim Jarvis",
+      "id": 669236,
+      "name": "Jeremiah Jackson",
+      "team": "BAL",
+      "score": -4,
+      "avg": 0.0
+    },
+    {
+      "id": 660670,
+      "name": "Ronald Acu\u00f1a Jr.",
       "team": "ATL",
       "score": -4,
       "avg": 0.0
@@ -3882,23 +3763,16 @@
       "avg": 0.0
     },
     {
-      "id": 680574,
-      "name": "Matt McLain",
-      "team": "CIN",
+      "id": 679845,
+      "name": "Nick Loftin",
+      "team": "KC",
       "score": -4,
       "avg": 0.0
     },
     {
-      "id": 666160,
-      "name": "Mickey Moniak",
-      "team": "COL",
-      "score": -4,
-      "avg": 0.0
-    },
-    {
-      "id": 808959,
-      "name": "Munetaka Murakami",
-      "team": "CWS",
+      "id": 701162,
+      "name": "Ben Malgeri",
+      "team": "DET",
       "score": -4,
       "avg": 0.0
     },
@@ -3917,23 +3791,9 @@
       "avg": 0.0
     },
     {
-      "id": 681393,
-      "name": "Connor Norby",
-      "team": "COL",
-      "score": -4,
-      "avg": 0.0
-    },
-    {
-      "id": 671976,
-      "name": "Tristan Peters",
-      "team": "CWS",
-      "score": -4,
-      "avg": 0.0
-    },
-    {
-      "id": 682663,
-      "name": "Agust\u00edn Ram\u00edrez",
-      "team": "MIA",
+      "id": 694673,
+      "name": "Abimelec Ortiz",
+      "team": "WSH",
       "score": -4,
       "avg": 0.0
     },
@@ -3945,23 +3805,16 @@
       "avg": 0.0
     },
     {
-      "id": 668939,
-      "name": "Adley Rutschman",
-      "team": "BOS",
+      "id": 660821,
+      "name": "Jes\u00fas S\u00e1nchez",
+      "team": "TOR",
       "score": -4,
       "avg": 0.0
     },
     {
-      "id": 666211,
-      "name": "Taylor Trammell",
-      "team": "HOU",
-      "score": -4,
-      "avg": 0.0
-    },
-    {
-      "id": 814439,
-      "name": "Ryan Waldschmidt",
-      "team": "AZ",
+      "id": 669707,
+      "name": "Jared Triolo",
+      "team": "PIT",
       "score": -4,
       "avg": 0.0
     },
@@ -3973,23 +3826,30 @@
       "avg": 0.29
     },
     {
-      "id": 666018,
-      "name": "Jonathan Aranda",
-      "team": "TB",
+      "id": 677951,
+      "name": "Bobby Witt Jr.",
+      "team": "KC",
       "score": -5,
       "avg": 0.285
     },
     {
-      "id": 682928,
-      "name": "CJ Abrams",
-      "team": "WSH",
+      "id": 666018,
+      "name": "Jonathan Aranda",
+      "team": "TB",
       "score": -5,
       "avg": 0.284
     },
     {
-      "id": 694384,
-      "name": "Nolan Schanuel",
-      "team": "LAA",
+      "id": 665487,
+      "name": "Fernando Tatis Jr.",
+      "team": "SD",
+      "score": -5,
+      "avg": 0.28
+    },
+    {
+      "id": 607043,
+      "name": "Brandon Nimmo",
+      "team": "TEX",
       "score": -5,
       "avg": 0.271
     },
@@ -3998,19 +3858,19 @@
       "name": "Dillon Dingler",
       "team": "DET",
       "score": -5,
-      "avg": 0.264
-    },
-    {
-      "id": 700250,
-      "name": "Ben Rice",
-      "team": "NYY",
-      "score": -5,
-      "avg": 0.256
+      "avg": 0.261
     },
     {
       "id": 605137,
       "name": "Josh Bell",
       "team": "MIN",
+      "score": -5,
+      "avg": 0.253
+    },
+    {
+      "id": 700250,
+      "name": "Ben Rice",
+      "team": "NYY",
       "score": -5,
       "avg": 0.253
     },
@@ -4022,46 +3882,39 @@
       "avg": 0.247
     },
     {
-      "id": 663656,
-      "name": "Kyle Tucker",
-      "team": "LAD",
-      "score": -5,
-      "avg": 0.236
-    },
-    {
-      "id": 662139,
-      "name": "Daulton Varsho",
-      "team": "HOU",
-      "score": -5,
-      "avg": 0.233
-    },
-    {
-      "id": 695600,
-      "name": "Carter Jensen",
-      "team": "KC",
-      "score": -5,
-      "avg": 0.222
-    },
-    {
       "id": 668709,
       "name": "JJ Bleday",
       "team": "CIN",
       "score": -5,
-      "avg": 0.218
+      "avg": 0.219
     },
     {
-      "id": 683002,
-      "name": "Gunnar Henderson",
+      "id": 665862,
+      "name": "Jazz Chisholm Jr.",
+      "team": "NYY",
+      "score": -5,
+      "avg": 0.216
+    },
+    {
+      "id": 672275,
+      "name": "Patrick Bailey",
+      "team": "CLE",
+      "score": -5,
+      "avg": 0.0
+    },
+    {
+      "id": 687637,
+      "name": "Dylan Beavers",
       "team": "BAL",
       "score": -5,
-      "avg": 0.214
+      "avg": 0.0
     },
     {
-      "id": 695657,
-      "name": "Colson Montgomery",
-      "team": "CWS",
+      "id": 683357,
+      "name": "Owen Caissie",
+      "team": "MIA",
       "score": -5,
-      "avg": 0.212
+      "avg": 0.0
     },
     {
       "id": 687551,
@@ -4071,9 +3924,23 @@
       "avg": 0.0
     },
     {
-      "id": 664728,
-      "name": "Kyle Isbel",
-      "team": "KC",
+      "id": 606192,
+      "name": "Teoscar Hern\u00e1ndez",
+      "team": "LAD",
+      "score": -5,
+      "avg": 0.0
+    },
+    {
+      "id": 805347,
+      "name": "Jim Jarvis",
+      "team": "ATL",
+      "score": -5,
+      "avg": 0.0
+    },
+    {
+      "id": 804668,
+      "name": "Rafael Flores Jr.",
+      "team": "PIT",
       "score": -5,
       "avg": 0.0
     },
@@ -4085,6 +3952,13 @@
       "avg": 0.0
     },
     {
+      "id": 666139,
+      "name": "Josh Lowe",
+      "team": "LAA",
+      "score": -5,
+      "avg": 0.0
+    },
+    {
       "id": 686681,
       "name": "Michael Massey",
       "team": "KC",
@@ -4092,16 +3966,9 @@
       "avg": 0.0
     },
     {
-      "id": 807727,
-      "name": "Charles McAdoo",
-      "team": "TOR",
-      "score": -5,
-      "avg": 0.0
-    },
-    {
-      "id": 592626,
-      "name": "Joc Pederson",
-      "team": "TEX",
+      "id": 682663,
+      "name": "Agust\u00edn Ram\u00edrez",
+      "team": "MIA",
       "score": -5,
       "avg": 0.0
     },
@@ -4113,9 +3980,23 @@
       "avg": 0.0
     },
     {
-      "id": 642086,
-      "name": "Dominic Smith",
-      "team": "ATL",
+      "id": 608369,
+      "name": "Corey Seager",
+      "team": "TEX",
+      "score": -5,
+      "avg": 0.0
+    },
+    {
+      "id": 650402,
+      "name": "Gleyber Torres",
+      "team": "DET",
+      "score": -5,
+      "avg": 0.0
+    },
+    {
+      "id": 691728,
+      "name": "Zac Veen",
+      "team": "COL",
       "score": -5,
       "avg": 0.0
     },
@@ -4127,11 +4008,11 @@
       "avg": 0.0
     },
     {
-      "id": 691406,
-      "name": "Junior Caminero",
-      "team": "TB",
+      "id": 682928,
+      "name": "CJ Abrams",
+      "team": "WSH",
       "score": -6,
-      "avg": 0.279
+      "avg": 0.283
     },
     {
       "id": 669016,
@@ -4141,30 +4022,30 @@
       "avg": 0.276
     },
     {
-      "id": 677649,
-      "name": "Ezequiel Duran",
+      "id": 669394,
+      "name": "Jake Burger",
       "team": "TEX",
       "score": -6,
-      "avg": 0.266
+      "avg": 0.234
     },
     {
-      "id": 608324,
-      "name": "Alex Bregman",
+      "id": 662139,
+      "name": "Daulton Varsho",
+      "team": "HOU",
+      "score": -6,
+      "avg": 0.233
+    },
+    {
+      "id": 593428,
+      "name": "Xander Bogaerts",
+      "team": "SD",
+      "score": -6,
+      "avg": 0.223
+    },
+    {
+      "id": 621020,
+      "name": "Dansby Swanson",
       "team": "CHC",
-      "score": -6,
-      "avg": 0.254
-    },
-    {
-      "id": 669003,
-      "name": "Garrett Mitchell",
-      "team": "MIL",
-      "score": -6,
-      "avg": 0.251
-    },
-    {
-      "id": 665862,
-      "name": "Jazz Chisholm Jr.",
-      "team": "NYY",
       "score": -6,
       "avg": 0.216
     },
@@ -4176,23 +4057,37 @@
       "avg": 0.211
     },
     {
-      "id": 805811,
-      "name": "Bryce Eldridge",
-      "team": "SF",
+      "id": 680776,
+      "name": "Jarren Duran",
+      "team": "BOS",
+      "score": -6,
+      "avg": 0.202
+    },
+    {
+      "id": 664728,
+      "name": "Kyle Isbel",
+      "team": "KC",
       "score": -6,
       "avg": 0.0
     },
     {
-      "id": 804668,
-      "name": "Rafael Flores Jr.",
-      "team": "PIT",
+      "id": 807727,
+      "name": "Charles McAdoo",
+      "team": "TOR",
       "score": -6,
       "avg": 0.0
     },
     {
-      "id": 694671,
-      "name": "Wyatt Langford",
-      "team": "TEX",
+      "id": 680574,
+      "name": "Matt McLain",
+      "team": "CIN",
+      "score": -6,
+      "avg": 0.0
+    },
+    {
+      "id": 808959,
+      "name": "Munetaka Murakami",
+      "team": "CWS",
       "score": -6,
       "avg": 0.0
     },
@@ -4200,6 +4095,13 @@
       "id": 663457,
       "name": "Lars Nootbaar",
       "team": "AZ",
+      "score": -6,
+      "avg": 0.0
+    },
+    {
+      "id": 681393,
+      "name": "Connor Norby",
+      "team": "COL",
       "score": -6,
       "avg": 0.0
     },
@@ -4218,39 +4120,74 @@
       "avg": 0.0
     },
     {
-      "id": 650402,
-      "name": "Gleyber Torres",
-      "team": "DET",
+      "id": 642350,
+      "name": "Jose Siri",
+      "team": "LAA",
       "score": -6,
       "avg": 0.0
     },
     {
-      "id": 694192,
-      "name": "Jackson Chourio",
+      "id": 642086,
+      "name": "Dominic Smith",
+      "team": "ATL",
+      "score": -6,
+      "avg": 0.0
+    },
+    {
+      "id": 677588,
+      "name": "Jos\u00e9 Tena",
+      "team": "WSH",
+      "score": -6,
+      "avg": 0.0
+    },
+    {
+      "id": 592885,
+      "name": "Christian Yelich",
+      "team": "MIL",
+      "score": -6,
+      "avg": 0.0
+    },
+    {
+      "id": 668227,
+      "name": "Randy Arozarena",
+      "team": "SEA",
+      "score": -7,
+      "avg": 0.278
+    },
+    {
+      "id": 691406,
+      "name": "Junior Caminero",
+      "team": "TB",
+      "score": -7,
+      "avg": 0.276
+    },
+    {
+      "id": 641343,
+      "name": "Jake Bauers",
       "team": "MIL",
       "score": -7,
-      "avg": 0.274
+      "avg": 0.269
     },
     {
-      "id": 664040,
-      "name": "Brandon Lowe",
-      "team": "PIT",
-      "score": -7,
-      "avg": 0.25
-    },
-    {
-      "id": 802139,
-      "name": "JJ Wetherholt",
-      "team": "STL",
-      "score": -7,
-      "avg": 0.245
-    },
-    {
-      "id": 621020,
-      "name": "Dansby Swanson",
+      "id": 608324,
+      "name": "Alex Bregman",
       "team": "CHC",
       "score": -7,
-      "avg": 0.215
+      "avg": 0.253
+    },
+    {
+      "id": 663656,
+      "name": "Kyle Tucker",
+      "team": "LAD",
+      "score": -7,
+      "avg": 0.234
+    },
+    {
+      "id": 695600,
+      "name": "Carter Jensen",
+      "team": "KC",
+      "score": -7,
+      "avg": 0.219
     },
     {
       "id": 683146,
@@ -4260,81 +4197,81 @@
       "avg": 0.214
     },
     {
-      "id": 687637,
-      "name": "Dylan Beavers",
-      "team": "BAL",
+      "id": 695657,
+      "name": "Colson Montgomery",
+      "team": "CWS",
+      "score": -7,
+      "avg": 0.209
+    },
+    {
+      "id": 671732,
+      "name": "Lawrence Butler",
+      "team": "ATH",
       "score": -7,
       "avg": 0.0
     },
     {
-      "id": 805999,
-      "name": "A.J. Ewing",
-      "team": "NYM",
-      "score": -7,
-      "avg": 0.0
-    },
-    {
-      "id": 641933,
-      "name": "Tyler O'Neill",
-      "team": "BAL",
-      "score": -7,
-      "avg": 0.0
-    },
-    {
-      "id": 663728,
-      "name": "Cal Raleigh",
-      "team": "SEA",
-      "score": -7,
-      "avg": 0.0
-    },
-    {
-      "id": 642350,
-      "name": "Jose Siri",
-      "team": "LAA",
-      "score": -7,
-      "avg": 0.0
-    },
-    {
-      "id": 596142,
-      "name": "Gary S\u00e1nchez",
-      "team": "MIL",
-      "score": -7,
-      "avg": 0.0
-    },
-    {
-      "id": 668227,
-      "name": "Randy Arozarena",
-      "team": "SEA",
-      "score": -8,
-      "avg": 0.276
-    },
-    {
-      "id": 646240,
-      "name": "Rafael Devers",
+      "id": 805811,
+      "name": "Bryce Eldridge",
       "team": "SF",
-      "score": -8,
-      "avg": 0.244
-    },
-    {
-      "id": 666176,
-      "name": "Jo Adell",
-      "team": "CLE",
-      "score": -8,
-      "avg": 0.232
-    },
-    {
-      "id": 682626,
-      "name": "Francisco Alvarez",
-      "team": "NYM",
-      "score": -8,
+      "score": -7,
       "avg": 0.0
     },
     {
-      "id": 665052,
-      "name": "Griffin Conine",
-      "team": "MIA",
-      "score": -8,
+      "id": 680869,
+      "name": "Zack Gelof",
+      "team": "ATH",
+      "score": -7,
       "avg": 0.0
+    },
+    {
+      "id": 694671,
+      "name": "Wyatt Langford",
+      "team": "TEX",
+      "score": -7,
+      "avg": 0.0
+    },
+    {
+      "id": 666160,
+      "name": "Mickey Moniak",
+      "team": "COL",
+      "score": -7,
+      "avg": 0.0
+    },
+    {
+      "id": 592626,
+      "name": "Joc Pederson",
+      "team": "TEX",
+      "score": -7,
+      "avg": 0.0
+    },
+    {
+      "id": 668939,
+      "name": "Adley Rutschman",
+      "team": "BOS",
+      "score": -7,
+      "avg": 0.0
+    },
+    {
+      "id": 666211,
+      "name": "Taylor Trammell",
+      "team": "HOU",
+      "score": -7,
+      "avg": 0.0
+    },
+    {
+      "id": 694192,
+      "name": "Jackson Chourio",
+      "team": "MIL",
+      "score": -8,
+      "avg": 0.274
+    },
+    {
+      "id": 802139,
+      "name": "JJ Wetherholt",
+      "team": "STL",
+      "score": -8,
+      "avg": 0.243
     },
     {
       "id": 806068,
@@ -4344,25 +4281,60 @@
       "avg": 0.0
     },
     {
+      "id": 805999,
+      "name": "A.J. Ewing",
+      "team": "NYM",
+      "score": -8,
+      "avg": 0.0
+    },
+    {
+      "id": 695731,
+      "name": "Braden Montgomery",
+      "team": "CWS",
+      "score": -8,
+      "avg": 0.0
+    },
+    {
+      "id": 641933,
+      "name": "Tyler O'Neill",
+      "team": "BAL",
+      "score": -8,
+      "avg": 0.0
+    },
+    {
+      "id": 596142,
+      "name": "Gary S\u00e1nchez",
+      "team": "MIL",
+      "score": -8,
+      "avg": 0.0
+    },
+    {
       "id": 691718,
       "name": "Pete Crow-Armstrong",
       "team": "CHC",
       "score": -9,
-      "avg": 0.281
+      "avg": 0.279
     },
     {
-      "id": 661388,
-      "name": "William Contreras",
+      "id": 669003,
+      "name": "Garrett Mitchell",
       "team": "MIL",
       "score": -9,
-      "avg": 0.257
+      "avg": 0.249
     },
     {
-      "id": 677594,
-      "name": "Julio Rodr\u00edguez",
-      "team": "SEA",
+      "id": 646240,
+      "name": "Rafael Devers",
+      "team": "SF",
       "score": -9,
-      "avg": 0.257
+      "avg": 0.245
+    },
+    {
+      "id": 666176,
+      "name": "Jo Adell",
+      "team": "CLE",
+      "score": -9,
+      "avg": 0.232
     },
     {
       "id": 668930,
@@ -4372,6 +4344,20 @@
       "avg": 0.268
     },
     {
+      "id": 677594,
+      "name": "Julio Rodr\u00edguez",
+      "team": "SEA",
+      "score": -10,
+      "avg": 0.257
+    },
+    {
+      "id": 664040,
+      "name": "Brandon Lowe",
+      "team": "PIT",
+      "score": -10,
+      "avg": 0.25
+    },
+    {
       "id": 656941,
       "name": "Kyle Schwarber",
       "team": "PHI",
@@ -4379,25 +4365,25 @@
       "avg": 0.25
     },
     {
-      "id": 681715,
-      "name": "Heriberto Hern\u00e1ndez",
+      "id": 665052,
+      "name": "Griffin Conine",
       "team": "MIA",
       "score": -10,
       "avg": 0.0
     },
     {
-      "id": 695731,
-      "name": "Braden Montgomery",
-      "team": "CWS",
+      "id": 663728,
+      "name": "Cal Raleigh",
+      "team": "SEA",
       "score": -10,
       "avg": 0.0
     },
     {
-      "id": 621566,
-      "name": "Matt Olson",
-      "team": "ATL",
+      "id": 661388,
+      "name": "William Contreras",
+      "team": "MIL",
       "score": -11,
-      "avg": 0.264
+      "avg": 0.255
     },
     {
       "id": 665019,
@@ -4405,6 +4391,27 @@
       "team": "MIN",
       "score": -11,
       "avg": 0.227
+    },
+    {
+      "id": 681715,
+      "name": "Heriberto Hern\u00e1ndez",
+      "team": "MIA",
+      "score": -11,
+      "avg": 0.0
+    },
+    {
+      "id": 621566,
+      "name": "Matt Olson",
+      "team": "ATL",
+      "score": -12,
+      "avg": 0.262
+    },
+    {
+      "id": 682626,
+      "name": "Francisco Alvarez",
+      "team": "NYM",
+      "score": -12,
+      "avg": 0.0
     },
     {
       "id": 547180,
