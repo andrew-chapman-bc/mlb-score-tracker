@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T00:03:11Z",
+  "generatedAt": "2026-08-17T09:32:47Z",
   "startDate": "2026-08-09",
   "endDate": "2026-08-16",
   "leaderboard": [
@@ -25,6 +25,13 @@
       "avg": 0.26
     },
     {
+      "id": 670623,
+      "name": "Isaac Paredes",
+      "team": "HOU",
+      "score": 7,
+      "avg": 0.26
+    },
+    {
       "id": 643446,
       "name": "Jeff McNeil",
       "team": "ATH",
@@ -37,13 +44,6 @@
       "team": "CLE",
       "score": 5,
       "avg": 0.285
-    },
-    {
-      "id": 670623,
-      "name": "Isaac Paredes",
-      "team": "HOU",
-      "score": 5,
-      "avg": 0.259
     },
     {
       "id": 664761,
@@ -109,18 +109,18 @@
       "avg": 0.274
     },
     {
+      "id": 647304,
+      "name": "Josh Naylor",
+      "team": "SEA",
+      "score": 3,
+      "avg": 0.267
+    },
+    {
       "id": 695734,
       "name": "Daylen Lile",
       "team": "WSH",
       "score": 3,
       "avg": 0.245
-    },
-    {
-      "id": 514888,
-      "name": "Jose Altuve",
-      "team": "HOU",
-      "score": 3,
-      "avg": 0.244
     },
     {
       "id": 678225,
@@ -151,13 +151,6 @@
       "avg": 0.0
     },
     {
-      "id": 647304,
-      "name": "Josh Naylor",
-      "team": "SEA",
-      "score": 2,
-      "avg": 0.267
-    },
-    {
       "id": 680757,
       "name": "Steven Kwan",
       "team": "CLE",
@@ -186,18 +179,18 @@
       "avg": 0.247
     },
     {
+      "id": 514888,
+      "name": "Jose Altuve",
+      "team": "HOU",
+      "score": 2,
+      "avg": 0.245
+    },
+    {
       "id": 521692,
       "name": "Salvador Perez",
       "team": "KC",
       "score": 2,
       "avg": 0.214
-    },
-    {
-      "id": 669397,
-      "name": "Nick Allen",
-      "team": "HOU",
-      "score": 2,
-      "avg": 0.0
     },
     {
       "id": 678489,
@@ -224,13 +217,6 @@
       "id": 702222,
       "name": "Justin Crawford",
       "team": "PHI",
-      "score": 2,
-      "avg": 0.0
-    },
-    {
-      "id": 680977,
-      "name": "Brendan Donovan",
-      "team": "SEA",
       "score": 2,
       "avg": 0.0
     },
@@ -344,7 +330,7 @@
       "name": "Cole Young",
       "team": "SEA",
       "score": 1,
-      "avg": 0.262
+      "avg": 0.26
     },
     {
       "id": 642715,
@@ -644,6 +630,13 @@
       "id": 672613,
       "name": "Eliezer Alfonzo",
       "team": "LAD",
+      "score": 0,
+      "avg": 0.0
+    },
+    {
+      "id": 669397,
+      "name": "Nick Allen",
+      "team": "HOU",
       "score": 0,
       "avg": 0.0
     },
@@ -973,6 +966,13 @@
       "id": 691176,
       "name": "Jasson Dom\u00ednguez",
       "team": "NYY",
+      "score": 0,
+      "avg": 0.0
+    },
+    {
+      "id": 680977,
+      "name": "Brendan Donovan",
+      "team": "SEA",
       "score": 0,
       "avg": 0.0
     },
@@ -2580,13 +2580,6 @@
       "avg": 0.0
     },
     {
-      "id": 664774,
-      "name": "LaMonte Wade Jr.",
-      "team": "HOU",
-      "score": -1,
-      "avg": 0.0
-    },
-    {
       "id": 672386,
       "name": "Alejandro Kirk",
       "team": "TOR",
@@ -2888,6 +2881,13 @@
       "avg": 0.0
     },
     {
+      "id": 664774,
+      "name": "LaMonte Wade Jr.",
+      "team": "HOU",
+      "score": -2,
+      "avg": 0.0
+    },
+    {
       "id": 800325,
       "name": "Luis Lara",
       "team": "MIL",
@@ -3070,13 +3070,6 @@
       "avg": 0.242
     },
     {
-      "id": 572233,
-      "name": "Christian Walker",
-      "team": "HOU",
-      "score": -3,
-      "avg": 0.235
-    },
-    {
       "id": 679529,
       "name": "Spencer Torkelson",
       "team": "DET",
@@ -3094,13 +3087,6 @@
       "id": 595879,
       "name": "Javier B\u00e1ez",
       "team": "DET",
-      "score": -3,
-      "avg": 0.0
-    },
-    {
-      "id": 686527,
-      "name": "Dominic Canzone",
-      "team": "SEA",
       "score": -3,
       "avg": 0.0
     },
@@ -3269,13 +3255,6 @@
       "id": 650859,
       "name": "Luis Rengifo",
       "team": "SD",
-      "score": -3,
-      "avg": 0.0
-    },
-    {
-      "id": 801126,
-      "name": "Brock Rodden",
-      "team": "SEA",
       "score": -3,
       "avg": 0.0
     },
@@ -3458,6 +3437,13 @@
       "id": 683357,
       "name": "Owen Caissie",
       "team": "MIA",
+      "score": -4,
+      "avg": 0.0
+    },
+    {
+      "id": 686527,
+      "name": "Dominic Canzone",
+      "team": "SEA",
       "score": -4,
       "avg": 0.0
     },
@@ -3721,9 +3707,9 @@
       "avg": 0.0
     },
     {
-      "id": 665161,
-      "name": "Jeremy Pe\u00f1a",
-      "team": "HOU",
+      "id": 801126,
+      "name": "Brock Rodden",
+      "team": "SEA",
       "score": -5,
       "avg": 0.0
     },
@@ -3770,13 +3756,6 @@
       "avg": 0.0
     },
     {
-      "id": 642215,
-      "name": "Weston Wilson",
-      "team": "SEA",
-      "score": -5,
-      "avg": 0.0
-    },
-    {
       "id": 671739,
       "name": "Michael Harris II",
       "team": "ATL",
@@ -3819,11 +3798,11 @@
       "avg": 0.235
     },
     {
-      "id": 662139,
-      "name": "Daulton Varsho",
+      "id": 572233,
+      "name": "Christian Walker",
       "team": "HOU",
       "score": -6,
-      "avg": 0.233
+      "avg": 0.234
     },
     {
       "id": 683002,
@@ -3885,6 +3864,13 @@
       "id": 694673,
       "name": "Abimelec Ortiz",
       "team": "WSH",
+      "score": -6,
+      "avg": 0.0
+    },
+    {
+      "id": 665161,
+      "name": "Jeremy Pe\u00f1a",
+      "team": "HOU",
       "score": -6,
       "avg": 0.0
     },
@@ -3978,6 +3964,13 @@
       "team": "LAD",
       "score": -7,
       "avg": 0.232
+    },
+    {
+      "id": 662139,
+      "name": "Daulton Varsho",
+      "team": "HOU",
+      "score": -7,
+      "avg": 0.231
     },
     {
       "id": 686555,
@@ -4099,6 +4092,13 @@
       "avg": 0.0
     },
     {
+      "id": 642215,
+      "name": "Weston Wilson",
+      "team": "SEA",
+      "score": -7,
+      "avg": 0.0
+    },
+    {
       "id": 694192,
       "name": "Jackson Chourio",
       "team": "MIL",
@@ -4118,13 +4118,6 @@
       "team": "TEX",
       "score": -8,
       "avg": 0.263
-    },
-    {
-      "id": 677594,
-      "name": "Julio Rodr\u00edguez",
-      "team": "SEA",
-      "score": -8,
-      "avg": 0.257
     },
     {
       "id": 646240,
@@ -4211,13 +4204,6 @@
       "avg": 0.282
     },
     {
-      "id": 668227,
-      "name": "Randy Arozarena",
-      "team": "SEA",
-      "score": -9,
-      "avg": 0.276
-    },
-    {
       "id": 682829,
       "name": "Elly De La Cruz",
       "team": "CIN",
@@ -4230,6 +4216,13 @@
       "team": "DET",
       "score": -9,
       "avg": 0.259
+    },
+    {
+      "id": 677594,
+      "name": "Julio Rodr\u00edguez",
+      "team": "SEA",
+      "score": -9,
+      "avg": 0.258
     },
     {
       "id": 608324,
@@ -4286,6 +4279,13 @@
       "team": "MIL",
       "score": -9,
       "avg": 0.0
+    },
+    {
+      "id": 668227,
+      "name": "Randy Arozarena",
+      "team": "SEA",
+      "score": -10,
+      "avg": 0.276
     },
     {
       "id": 691406,
@@ -4358,20 +4358,6 @@
       "avg": 0.213
     },
     {
-      "id": 663728,
-      "name": "Cal Raleigh",
-      "team": "SEA",
-      "score": -11,
-      "avg": 0.0
-    },
-    {
-      "id": 666211,
-      "name": "Taylor Trammell",
-      "team": "HOU",
-      "score": -11,
-      "avg": 0.0
-    },
-    {
       "id": 621566,
       "name": "Matt Olson",
       "team": "ATL",
@@ -4389,6 +4375,13 @@
       "id": 592626,
       "name": "Joc Pederson",
       "team": "TEX",
+      "score": -12,
+      "avg": 0.0
+    },
+    {
+      "id": 666211,
+      "name": "Taylor Trammell",
+      "team": "HOU",
       "score": -12,
       "avg": 0.0
     },
@@ -4431,6 +4424,13 @@
       "id": 681715,
       "name": "Heriberto Hern\u00e1ndez",
       "team": "MIA",
+      "score": -14,
+      "avg": 0.0
+    },
+    {
+      "id": 663728,
+      "name": "Cal Raleigh",
+      "team": "SEA",
       "score": -14,
       "avg": 0.0
     },
