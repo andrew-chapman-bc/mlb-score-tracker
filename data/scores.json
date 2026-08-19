@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T09:23:39Z",
+  "generatedAt": "2026-08-19T09:25:33Z",
   "startDate": "2026-08-09",
   "endDate": "2026-08-16",
   "leaderboard": [
@@ -8,14 +8,14 @@
       "name": "Chandler Simpson",
       "team": "TB",
       "score": 16,
-      "avg": 0.309
+      "avg": 0.31
     },
     {
       "id": 650490,
       "name": "Yandy D\u00edaz",
       "team": "TB",
       "score": 8,
-      "avg": 0.304
+      "avg": 0.306
     },
     {
       "id": 663538,
@@ -29,7 +29,7 @@
       "name": "Isaac Paredes",
       "team": "HOU",
       "score": 7,
-      "avg": 0.26
+      "avg": 0.259
     },
     {
       "id": 643446,
@@ -50,7 +50,7 @@
       "name": "Alec Bohm",
       "team": "PHI",
       "score": 5,
-      "avg": 0.242
+      "avg": 0.244
     },
     {
       "id": 664770,
@@ -71,7 +71,7 @@
       "name": "Iv\u00e1n Herrera",
       "team": "STL",
       "score": 4,
-      "avg": 0.248
+      "avg": 0.246
     },
     {
       "id": 676356,
@@ -106,7 +106,7 @@
       "name": "Drake Baldwin",
       "team": "ATL",
       "score": 3,
-      "avg": 0.276
+      "avg": 0.278
     },
     {
       "id": 647304,
@@ -169,28 +169,28 @@
       "name": "Mauricio Dub\u00f3n",
       "team": "ATL",
       "score": 2,
-      "avg": 0.26
+      "avg": 0.258
     },
     {
       "id": 514888,
       "name": "Jose Altuve",
       "team": "HOU",
       "score": 2,
-      "avg": 0.245
+      "avg": 0.246
     },
     {
       "id": 672695,
       "name": "Geraldo Perdomo",
       "team": "AZ",
       "score": 2,
-      "avg": 0.245
+      "avg": 0.246
     },
     {
       "id": 521692,
       "name": "Salvador Perez",
       "team": "KC",
       "score": 2,
-      "avg": 0.215
+      "avg": 0.214
     },
     {
       "id": 678489,
@@ -288,7 +288,7 @@
       "name": "Luis Arraez",
       "team": "PHI",
       "score": 1,
-      "avg": 0.314
+      "avg": 0.317
     },
     {
       "id": 693304,
@@ -302,35 +302,35 @@
       "name": "Ceddanne Rafaela",
       "team": "BOS",
       "score": 1,
-      "avg": 0.288
+      "avg": 0.287
     },
     {
       "id": 676391,
       "name": "Ernie Clement",
       "team": "TOR",
       "score": 1,
-      "avg": 0.281
+      "avg": 0.285
     },
     {
       "id": 694384,
       "name": "Nolan Schanuel",
       "team": "LAA",
       "score": 1,
-      "avg": 0.279
+      "avg": 0.281
     },
     {
       "id": 695506,
       "name": "Jac Caglianone",
       "team": "KC",
       "score": 1,
-      "avg": 0.276
+      "avg": 0.278
     },
     {
       "id": 702284,
       "name": "Cole Young",
       "team": "SEA",
       "score": 1,
-      "avg": 0.26
+      "avg": 0.258
     },
     {
       "id": 642715,
@@ -344,7 +344,7 @@
       "name": "Cedric Mullins",
       "team": "TB",
       "score": 1,
-      "avg": 0.209
+      "avg": 0.21
     },
     {
       "id": 669743,
@@ -498,7 +498,7 @@
       "name": "Otto Lopez",
       "team": "MIA",
       "score": 0,
-      "avg": 0.31
+      "avg": 0.308
     },
     {
       "id": 673962,
@@ -540,7 +540,7 @@
       "name": "Bo Bichette",
       "team": "NYM",
       "score": 0,
-      "avg": 0.267
+      "avg": 0.268
     },
     {
       "id": 681082,
@@ -589,21 +589,21 @@
       "name": "Michael Busch",
       "team": "CHC",
       "score": 0,
-      "avg": 0.243
+      "avg": 0.244
     },
     {
       "id": 608070,
       "name": "Jos\u00e9 Ram\u00edrez",
       "team": "CLE",
       "score": 0,
-      "avg": 0.236
+      "avg": 0.241
     },
     {
       "id": 678662,
       "name": "Ezequiel Tovar",
       "team": "COL",
       "score": 0,
-      "avg": 0.207
+      "avg": 0.206
     },
     {
       "id": 682634,
@@ -686,6 +686,13 @@
       "id": 663609,
       "name": "Luken Baker",
       "team": "AZ",
+      "score": 0,
+      "avg": 0.0
+    },
+    {
+      "id": 677943,
+      "name": "Will Banfield",
+      "team": "CIN",
       "score": 0,
       "avg": 0.0
     },
@@ -2416,21 +2423,21 @@
       "name": "Yordan Alvarez",
       "team": "HOU",
       "score": -1,
-      "avg": 0.321
+      "avg": 0.318
     },
     {
       "id": 672515,
       "name": "Gabriel Moreno",
       "team": "AZ",
       "score": -1,
-      "avg": 0.307
+      "avg": 0.308
     },
     {
       "id": 669364,
       "name": "Xavier Edwards",
       "team": "MIA",
       "score": -1,
-      "avg": 0.285
+      "avg": 0.286
     },
     {
       "id": 624413,
@@ -2451,7 +2458,7 @@
       "name": "Brooks Lee",
       "team": "MIN",
       "score": -1,
-      "avg": 0.243
+      "avg": 0.244
     },
     {
       "id": 669065,
@@ -2486,7 +2493,7 @@
       "name": "Jakob Marsee",
       "team": "MIA",
       "score": -1,
-      "avg": 0.208
+      "avg": 0.207
     },
     {
       "id": 643217,
@@ -2731,14 +2738,14 @@
       "name": "Liam Hicks",
       "team": "TB",
       "score": -2,
-      "avg": 0.282
+      "avg": 0.281
     },
     {
       "id": 671277,
       "name": "Luis Garc\u00eda Jr.",
       "team": "NYY",
       "score": -2,
-      "avg": 0.278
+      "avg": 0.275
     },
     {
       "id": 682985,
@@ -2752,14 +2759,14 @@
       "name": "Luke Keaschall",
       "team": "MIN",
       "score": -2,
-      "avg": 0.268
+      "avg": 0.27
     },
     {
       "id": 650489,
       "name": "Willi Castro",
       "team": "COL",
       "score": -2,
-      "avg": 0.262
+      "avg": 0.265
     },
     {
       "id": 668804,
@@ -2780,7 +2787,7 @@
       "name": "George Springer",
       "team": "TOR",
       "score": -2,
-      "avg": 0.228
+      "avg": 0.234
     },
     {
       "id": 701358,
@@ -2794,7 +2801,7 @@
       "name": "Manny Machado",
       "team": "SD",
       "score": -2,
-      "avg": 0.212
+      "avg": 0.217
     },
     {
       "id": 681146,
@@ -3025,14 +3032,14 @@
       "name": "Jake McCarthy",
       "team": "COL",
       "score": -3,
-      "avg": 0.294
+      "avg": 0.295
     },
     {
       "id": 681198,
       "name": "TJ Rumfield",
       "team": "COL",
       "score": -3,
-      "avg": 0.291
+      "avg": 0.293
     },
     {
       "id": 676475,
@@ -3060,28 +3067,28 @@
       "name": "Corbin Carroll",
       "team": "AZ",
       "score": -3,
-      "avg": 0.247
+      "avg": 0.246
     },
     {
       "id": 701538,
       "name": "Jackson Merrill",
       "team": "SD",
       "score": -3,
-      "avg": 0.244
+      "avg": 0.242
     },
     {
       "id": 545361,
       "name": "Mike Trout",
       "team": "LAA",
       "score": -3,
-      "avg": 0.242
+      "avg": 0.24
     },
     {
       "id": 679529,
       "name": "Spencer Torkelson",
       "team": "DET",
       "score": -3,
-      "avg": 0.228
+      "avg": 0.226
     },
     {
       "id": 682668,
@@ -3340,35 +3347,35 @@
       "name": "Andy Pages",
       "team": "LAD",
       "score": -4,
-      "avg": 0.274
+      "avg": 0.273
     },
     {
       "id": 701807,
       "name": "Carson Benge",
       "team": "NYM",
       "score": -4,
-      "avg": 0.273
+      "avg": 0.27
     },
     {
       "id": 673548,
       "name": "Seiya Suzuki",
       "team": "CHC",
       "score": -4,
-      "avg": 0.273
-    },
-    {
-      "id": 702332,
-      "name": "Caleb Durbin",
-      "team": "BOS",
-      "score": -4,
-      "avg": 0.257
+      "avg": 0.269
     },
     {
       "id": 605137,
       "name": "Josh Bell",
       "team": "MIN",
       "score": -4,
-      "avg": 0.256
+      "avg": 0.258
+    },
+    {
+      "id": 702332,
+      "name": "Caleb Durbin",
+      "team": "BOS",
+      "score": -4,
+      "avg": 0.258
     },
     {
       "id": 696100,
@@ -3392,25 +3399,18 @@
       "avg": 0.228
     },
     {
-      "id": 663586,
-      "name": "Austin Riley",
-      "team": "ATL",
-      "score": -4,
-      "avg": 0.224
-    },
-    {
       "id": 687263,
       "name": "Zach Neto",
       "team": "LAA",
       "score": -4,
-      "avg": 0.221
+      "avg": 0.224
     },
     {
-      "id": 665862,
-      "name": "Jazz Chisholm Jr.",
-      "team": "NYY",
+      "id": 663586,
+      "name": "Austin Riley",
+      "team": "ATL",
       "score": -4,
-      "avg": 0.216
+      "avg": 0.222
     },
     {
       "id": 664023,
@@ -3418,6 +3418,13 @@
       "team": "CHC",
       "score": -4,
       "avg": 0.215
+    },
+    {
+      "id": 665862,
+      "name": "Jazz Chisholm Jr.",
+      "team": "NYY",
+      "score": -4,
+      "avg": 0.214
     },
     {
       "id": 691182,
@@ -3571,28 +3578,28 @@
       "name": "Freddie Freeman",
       "team": "LAD",
       "score": -5,
-      "avg": 0.302
+      "avg": 0.304
     },
     {
       "id": 666018,
       "name": "Jonathan Aranda",
       "team": "TB",
       "score": -5,
-      "avg": 0.286
+      "avg": 0.285
     },
     {
       "id": 607043,
       "name": "Brandon Nimmo",
       "team": "TEX",
       "score": -5,
-      "avg": 0.271
+      "avg": 0.273
     },
     {
       "id": 677800,
       "name": "Wilyer Abreu",
       "team": "BOS",
       "score": -5,
-      "avg": 0.259
+      "avg": 0.257
     },
     {
       "id": 645277,
@@ -3606,14 +3613,14 @@
       "name": "Trent Grisham",
       "team": "NYY",
       "score": -5,
-      "avg": 0.221
+      "avg": 0.224
     },
     {
       "id": 543760,
       "name": "Marcus Semien",
       "team": "NYM",
       "score": -5,
-      "avg": 0.21
+      "avg": 0.208
     },
     {
       "id": 672275,
@@ -3767,21 +3774,28 @@
       "name": "Michael Harris II",
       "team": "ATL",
       "score": -6,
-      "avg": 0.288
+      "avg": 0.292
     },
     {
       "id": 805808,
       "name": "Kevin McGonigle",
       "team": "DET",
       "score": -6,
-      "avg": 0.282
+      "avg": 0.281
     },
     {
       "id": 641343,
       "name": "Jake Bauers",
       "team": "MIL",
       "score": -6,
-      "avg": 0.275
+      "avg": 0.278
+    },
+    {
+      "id": 691026,
+      "name": "Masyn Winn",
+      "team": "STL",
+      "score": -6,
+      "avg": 0.241
     },
     {
       "id": 669394,
@@ -3791,39 +3805,32 @@
       "avg": 0.239
     },
     {
-      "id": 691026,
-      "name": "Masyn Winn",
-      "team": "STL",
-      "score": -6,
-      "avg": 0.236
-    },
-    {
       "id": 683953,
       "name": "Travis Bazzana",
       "team": "CLE",
       "score": -6,
-      "avg": 0.235
+      "avg": 0.232
     },
     {
       "id": 572233,
       "name": "Christian Walker",
       "team": "HOU",
       "score": -6,
-      "avg": 0.234
+      "avg": 0.232
     },
     {
       "id": 668709,
       "name": "JJ Bleday",
       "team": "CIN",
       "score": -6,
-      "avg": 0.223
+      "avg": 0.22
     },
     {
       "id": 683002,
       "name": "Gunnar Henderson",
       "team": "BAL",
       "score": -6,
-      "avg": 0.222
+      "avg": 0.22
     },
     {
       "id": 621020,
@@ -3914,28 +3921,28 @@
       "name": "Shohei Ohtani",
       "team": "LAD",
       "score": -7,
-      "avg": 0.295
+      "avg": 0.294
     },
     {
       "id": 575929,
       "name": "Willson Contreras",
       "team": "BOS",
       "score": -7,
-      "avg": 0.281
-    },
-    {
-      "id": 665487,
-      "name": "Fernando Tatis Jr.",
-      "team": "SD",
-      "score": -7,
-      "avg": 0.279
+      "avg": 0.283
     },
     {
       "id": 682928,
       "name": "CJ Abrams",
       "team": "WSH",
       "score": -7,
-      "avg": 0.278
+      "avg": 0.28
+    },
+    {
+      "id": 665487,
+      "name": "Fernando Tatis Jr.",
+      "team": "SD",
+      "score": -7,
+      "avg": 0.28
     },
     {
       "id": 571970,
@@ -3949,7 +3956,7 @@
       "name": "Trea Turner",
       "team": "PHI",
       "score": -7,
-      "avg": 0.247
+      "avg": 0.246
     },
     {
       "id": 571448,
@@ -3966,13 +3973,6 @@
       "avg": 0.239
     },
     {
-      "id": 662139,
-      "name": "Daulton Varsho",
-      "team": "HOU",
-      "score": -7,
-      "avg": 0.231
-    },
-    {
       "id": 663656,
       "name": "Kyle Tucker",
       "team": "LAD",
@@ -3980,23 +3980,30 @@
       "avg": 0.23
     },
     {
+      "id": 662139,
+      "name": "Daulton Varsho",
+      "team": "HOU",
+      "score": -7,
+      "avg": 0.228
+    },
+    {
       "id": 686555,
       "name": "Isaac Collins",
       "team": "KC",
       "score": -7,
-      "avg": 0.227
-    },
-    {
-      "id": 593428,
-      "name": "Xander Bogaerts",
-      "team": "SD",
-      "score": -7,
-      "avg": 0.221
+      "avg": 0.226
     },
     {
       "id": 695600,
       "name": "Carter Jensen",
       "team": "KC",
+      "score": -7,
+      "avg": 0.22
+    },
+    {
+      "id": 593428,
+      "name": "Xander Bogaerts",
+      "team": "SD",
       "score": -7,
       "avg": 0.219
     },
@@ -4124,28 +4131,28 @@
       "name": "Ezequiel Duran",
       "team": "TEX",
       "score": -8,
-      "avg": 0.263
+      "avg": 0.264
     },
     {
       "id": 646240,
       "name": "Rafael Devers",
       "team": "SF",
       "score": -8,
-      "avg": 0.246
+      "avg": 0.244
     },
     {
       "id": 802139,
       "name": "JJ Wetherholt",
       "team": "STL",
       "score": -8,
-      "avg": 0.244
+      "avg": 0.241
     },
     {
       "id": 695657,
       "name": "Colson Montgomery",
       "team": "CWS",
       "score": -8,
-      "avg": 0.212
+      "avg": 0.217
     },
     {
       "id": 680776,
@@ -4208,42 +4215,42 @@
       "name": "Bobby Witt Jr.",
       "team": "KC",
       "score": -9,
-      "avg": 0.286
+      "avg": 0.287
     },
     {
       "id": 682829,
       "name": "Elly De La Cruz",
       "team": "CIN",
       "score": -9,
-      "avg": 0.261
-    },
-    {
-      "id": 693307,
-      "name": "Dillon Dingler",
-      "team": "DET",
-      "score": -9,
-      "avg": 0.258
-    },
-    {
-      "id": 677594,
-      "name": "Julio Rodr\u00edguez",
-      "team": "SEA",
-      "score": -9,
-      "avg": 0.258
+      "avg": 0.259
     },
     {
       "id": 608324,
       "name": "Alex Bregman",
       "team": "CHC",
       "score": -9,
-      "avg": 0.255
+      "avg": 0.257
+    },
+    {
+      "id": 693307,
+      "name": "Dillon Dingler",
+      "team": "DET",
+      "score": -9,
+      "avg": 0.257
+    },
+    {
+      "id": 677594,
+      "name": "Julio Rodr\u00edguez",
+      "team": "SEA",
+      "score": -9,
+      "avg": 0.256
     },
     {
       "id": 700250,
       "name": "Ben Rice",
       "team": "NYY",
       "score": -9,
-      "avg": 0.251
+      "avg": 0.249
     },
     {
       "id": 657757,
@@ -4288,32 +4295,32 @@
       "avg": 0.0
     },
     {
-      "id": 668227,
-      "name": "Randy Arozarena",
-      "team": "SEA",
-      "score": -10,
-      "avg": 0.276
-    },
-    {
       "id": 691406,
       "name": "Junior Caminero",
       "team": "TB",
       "score": -10,
-      "avg": 0.273
+      "avg": 0.275
+    },
+    {
+      "id": 668227,
+      "name": "Randy Arozarena",
+      "team": "SEA",
+      "score": -10,
+      "avg": 0.274
     },
     {
       "id": 668930,
       "name": "Brice Turang",
       "team": "MIL",
       "score": -10,
-      "avg": 0.266
+      "avg": 0.265
     },
     {
       "id": 669003,
       "name": "Garrett Mitchell",
       "team": "MIL",
       "score": -10,
-      "avg": 0.249
+      "avg": 0.255
     },
     {
       "id": 665052,
@@ -4334,28 +4341,28 @@
       "name": "William Contreras",
       "team": "MIL",
       "score": -11,
-      "avg": 0.257
+      "avg": 0.26
     },
     {
       "id": 664040,
       "name": "Brandon Lowe",
       "team": "PIT",
       "score": -11,
-      "avg": 0.254
-    },
-    {
-      "id": 808959,
-      "name": "Munetaka Murakami",
-      "team": "CWS",
-      "score": -11,
-      "avg": 0.233
+      "avg": 0.252
     },
     {
       "id": 666176,
       "name": "Jo Adell",
       "team": "CLE",
       "score": -11,
-      "avg": 0.232
+      "avg": 0.237
+    },
+    {
+      "id": 808959,
+      "name": "Munetaka Murakami",
+      "team": "CWS",
+      "score": -11,
+      "avg": 0.234
     },
     {
       "id": 683146,
@@ -4369,7 +4376,7 @@
       "name": "Matt Olson",
       "team": "ATL",
       "score": -12,
-      "avg": 0.264
+      "avg": 0.262
     },
     {
       "id": 665019,
@@ -4397,7 +4404,7 @@
       "name": "Pete Crow-Armstrong",
       "team": "CHC",
       "score": -13,
-      "avg": 0.281
+      "avg": 0.282
     },
     {
       "id": 656941,
@@ -4446,7 +4453,7 @@
       "name": "Bryce Harper",
       "team": "PHI",
       "score": -17,
-      "avg": 0.26
+      "avg": 0.259
     }
   ]
 }
